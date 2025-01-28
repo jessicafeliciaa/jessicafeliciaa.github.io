@@ -1,0 +1,9 @@
+---
+title: "About"
+---
+
+## Who am I? 
+I'm a Master Student majoring in Business Analytics at Paul Merage School of Business, Irvine. 
+
+# Where did you come from? 
+I'm originally from Bali, Indonesia. I went to San Jose State University for my Bachelor of Science in Computer Science. I have work experience for 2 years working as a Content Analyst at Yahoo and Product Documentation Specialist at Lin-Zhi International Inc. before continuing my education at University of California, Irvine.

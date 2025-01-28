@@ -1,0 +1,24 @@
+---
+title: "Jessica Felicia"
+image: images/headshot.jpeg # replace with the link to your headshot
+about:
+  template: solana # see additional templates here https://quarto.org/docs/websites/website-about.html
+  links:  # add links to your various social profiles
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jessicafelicia/<yourhandle>
+    - icon: github
+      text: Github
+      href: https://github.com/jessicafeliciaa<yourhandle>
+---
+
+Summary 
+
+# Education 
+**University of California, Irvine** | Irvine, CA
+
+Master of Scinece in Business Analytics | August 2024 - June 2025
+
+**San Jose State Unviersity** | San Jose, CA
+
+B.S. Computer Science | August 2019 - December 2021
