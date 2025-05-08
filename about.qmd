@@ -1,9 +1,48 @@
 ---
-title: "About"
+title: "About Me"
+format: html
 ---
 
-## Who am I? 
-I'm a Master Student majoring in Business Analytics at Paul Merage School of Business, Irvine. 
+<div style="display: flex; flex-wrap: wrap; align-items: center; margin-bottom: 2em;">
+  <div style="flex: 1; min-width: 250px;">
+    <img src="/workspaces/jessicafeliciaa.github.io/projects/images/jessica.JPG" alt="Jessica Felicia" style="max-width: 100%; border-radius: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+  </div>
+  <div style="flex: 2; padding-left: 2em; min-width: 300px;">
+  
+### 👩‍💼 Jessica Felicia  
+**M.S. in Business Analytics**  
+**Paul Merage School of Business - University of California, Irvine**
 
-# Where did you come from? 
-I'm originally from Bali, Indonesia. I went to San Jose State University for my Bachelor of Science in Computer Science. I have work experience for 2 years working as a Content Analyst at Yahoo and Product Documentation Specialist at Lin-Zhi International Inc. before continuing my education at University of California, Irvine.
+I'm a Master's student at the Paul Merage School of Business, specializing in Business Analytics. I have a strong passion for leveraging data to uncover insights and drive strategic decisions, especially in the areas of marketing analytics, customer segmentation, and business intelligence.
+
+My work blends technical skills in Python, SQL, Tableau, and Excel with a business-first mindset. I’ve led and contributed to projects involving churn rate analysis, recommendation systems, Yelp analysis, Customer segmentation analysis.
+
+I'm particularly drawn to problems where human behavior meets data, and I thrive in collaborative settings where I can turn messy datasets into meaningful insights for stakeholders.
+
+  </div>
+</div>
+
+---
+
+## 📌 Core Interests & Strengths
+
+- **Data & Marketing Analytics**
+- **Customer Segmentation & Personalization**
+- **Data Visualization & Storytelling**
+- **Machine Learning**
+
+---
+
+## 🔧 Technical Toolkit
+
+- **Languages:** Python, SQL, Java, R (basic)
+- **Tools:** Tableau, Excel, Google Colab, Git
+- **Libraries:** Pandas, Scikit-learn, Matplotlib, Seaborn
+
+---
+
+## 🎯 Goals & Mindset
+
+As an aspiring data-driven professional, I’m always learning and eager to work on impactful projects that connect analytics to business value. Whether it’s optimizing customer journeys, exploring behavior through clustering, or crafting dashboards for decision-makers, I aim to bring clarity through data.
+
+Let’s connect and create something meaningful together!

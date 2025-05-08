@@ -1,24 +1,34 @@
 ---
-title: "Jessica Felicia"
-image: images/headshot.jpeg # replace with the link to your headshot
+title: "Home"
 about:
   template: solana # see additional templates here https://quarto.org/docs/websites/website-about.html
-  links:  # add links to your various social profiles
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/jessicafelicia/<yourhandle>
-    - icon: github
-      text: Github
-      href: https://github.com/jessicafeliciaa<yourhandle>
 ---
 
-Summary 
+# 👋 Welcome
 
-# Education 
-**University of California, Irvine** | Irvine, CA
+Hi, I'm **Jessica Felicia**, a Business Analytics Master's student at UCI Paul Merage School of Business. I specialize in **Data and Marketing Analytics**, and I love using data to improve customer experiences, optimize strategies, and inform business decisions.
 
-Master of Scinece in Business Analytics | August 2024 - June 2025
+---
 
-**San Jose State Unviersity** | San Jose, CA
+## 🚀 Featured Projects
 
-B.S. Computer Science | August 2019 - December 2021
+### ✈️ Customer Segmentation – Sun Country Airlines  
+Used K-means clustering to identify 5 unique customer segments based on booking, travel, and demographic data.  
+👉 [Github Repo](suncountry.qmd)
+
+### 🎬 Netflix Recommendation Engine  
+Built a personalized recommendation system using NLP techniques and cosine similarity on movie descriptions.  
+👉 [Github Repo](https://github.com/your-username/netflix-recommender)
+
+### 📊 Yelp Analysis 
+Created an interactive dashboard in Tableau to analyze churn risk and track retention metrics in real time.  
+👉 [View Dashboard](https://public.tableau.com/views/YourDashboardLink)
+
+---
+
+## 📫 Get in Touch
+
+- [About Me](about.qmd)
+- [LinkedIn](https://www.linkedin.com/in/jessicafelicia/)
+- [Github](https://github.com/jessicafeliciaa)
+- 📧 jessicafelicia87@gmail.com

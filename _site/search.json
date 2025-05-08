@@ -2,16 +2,37 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Jessica Felicia",
+    "title": "Home",
     "section": "",
-    "text": "Summary\n\nEducation\nUniversity of California, Irvine | Irvine, CA\nMaster of Scinece in Business Analytics | August 2024 - June 2025\n** San Jose State Unviersity** | San Jose, CA\nB.S. Computer Science | August 2019 - December 2021"
+    "text": "Hi, I’m Jessica Felicia, a Business Analytics Master’s student at UCI Paul Merage School of Business. I specialize in Data and Marketing Analytics, and I love using data to improve customer experiences, optimize strategies, and inform business decisions.\n\n\n\n\n\nUsed K-means clustering to identify 5 unique customer segments based on booking, travel, and demographic data.\n👉 Github Repo\n\n\n\nBuilt a personalized recommendation system using NLP techniques and cosine similarity on movie descriptions.\n👉 Github Repo\n\n\n\nCreated an interactive dashboard in Tableau to analyze churn risk and track retention metrics in real time.\n👉 View Dashboard\n\n\n\n\n\n\nAbout Me\nLinkedIn\nGithub\n📧 jessicafelicia87@gmail.com"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Project A"
+  },
+  {
+    "objectID": "projects/Clustering Analysis /index.html",
+    "href": "projects/Clustering Analysis /index.html",
+    "title": "Clustering Analysis (Sun County Airlines)",
+    "section": "",
+    "text": "The purpose of this project is to assist Sun Country Airlines in maximizing the use of its customer data to more effectively inform the marketing and product development teams so that the small airliner can better navigate the competitive airline industry. As a small airliner, the company needs to have a deep understanding of its customer segments, habits, and demographics to avoid poaching from larger airlines."
+  },
+  {
+    "objectID": "projects/Clustering Analysis /index.html#objective",
+    "href": "projects/Clustering Analysis /index.html#objective",
+    "title": "Clustering Analysis (Sun County Airlines)",
+    "section": "",
+    "text": "The purpose of this project is to assist Sun Country Airlines in maximizing the use of its customer data to more effectively inform the marketing and product development teams so that the small airliner can better navigate the competitive airline industry. As a small airliner, the company needs to have a deep understanding of its customer segments, habits, and demographics to avoid poaching from larger airlines."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "I’m a Master Student majoring in Business Analytics at Paul Merage School of Business, Irvine."
+    "text": "&lt;img src=\"/workspaces/jessicafeliciaa.github.io/projects/images/jessica.JPG\" alt=\"Jessica Felicia\" style=\"max-width: 100%; border-radius: 16px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);\"&gt;\n\n\n\nM.S. in Business Analytics\nPaul Merage School of Business - University of California, Irvine\nI’m a Master’s student at the Paul Merage School of Business, specializing in Business Analytics. I have a strong passion for leveraging data to uncover insights and drive strategic decisions, especially in the areas of marketing analytics, customer segmentation, and business intelligence.\nMy work blends technical skills in Python, SQL, Tableau, and Excel with a business-first mindset. I’ve led and contributed to projects involving churn rate analysis, recommendation systems, Yelp analysis, Customer segmentation analysis.\nI’m particularly drawn to problems where human behavior meets data, and I thrive in collaborative settings where I can turn messy datasets into meaningful insights for stakeholders."
   },
   {
     "objectID": "about.html#who-am-i",
@@ -21,10 +42,94 @@
     "text": "I’m a Master Student majoring in Business Analytics at Paul Merage School of Business, Irvine."
   },
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Jessica Felicia",
+    "section": "🚀 Projects",
+    "text": "🚀 Projects\n\n✈️ Customer Segmentation for Sun Country Airlines\nTools: Python, Pandas, K-means Clustering, Matplotlib, Google Colab, Excel\nConducted a customer segmentation analysis to help Sun Country Airlines better understand its diverse customer base and optimize marketing strategies.\n👉 Github Repo\n\n\n\n🎬 Netflix Recommendation System\nTools: NLP, Pandas, Scikit-learn\nCreated a personalized content recommender using movie metadata and user preferences.\n👉 Github Repo\n\n\n\n🛍️ Customer Segmentation in Retail\nTools: K-means, PCA, Seaborn\nClustered customer types based on purchasing behavior to drive personalized marketing.\n👉 GitHub Repo"
+  },
+  {
+    "objectID": "about.html#core-interests-strengths",
+    "href": "about.html#core-interests-strengths",
+    "title": "About Me",
+    "section": "📌 Core Interests & Strengths",
+    "text": "📌 Core Interests & Strengths\n\nData & Marketing Analytics\nCustomer Segmentation & Personalization\nData Visualization & Storytelling\nMachine Learning"
+  },
+  {
+    "objectID": "about.html#technical-toolkit",
+    "href": "about.html#technical-toolkit",
+    "title": "About Me",
+    "section": "🔧 Technical Toolkit",
+    "text": "🔧 Technical Toolkit\n\nLanguages: Python, SQL, Java, R (basic)\nTools: Tableau, Excel, Google Colab, Git\nLibraries: Pandas, Scikit-learn, Matplotlib, Seaborn"
+  },
+  {
+    "objectID": "about.html#goals-mindset",
+    "href": "about.html#goals-mindset",
+    "title": "About Me",
+    "section": "🎯 Goals & Mindset",
+    "text": "🎯 Goals & Mindset\nAs an aspiring data-driven professional, I’m always learning and eager to work on impactful projects that connect analytics to business value. Whether it’s optimizing customer journeys, exploring behavior through clustering, or crafting dashboards for decision-makers, I aim to bring clarity through data.\nLet’s connect and create something meaningful together!"
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Home",
     "section": "",
-    "text": "Project A"
+    "text": "Used K-means clustering to identify 5 unique customer segments based on booking, travel, and demographic data.\n👉 Github Repo\n\n\n\nBuilt a personalized recommendation system using NLP techniques and cosine similarity on movie descriptions.\n👉 Github Repo\n\n\n\nCreated an interactive dashboard in Tableau to analyze churn risk and track retention metrics in real time.\n👉 View Dashboard"
+  },
+  {
+    "objectID": "index.html#get-in-touch",
+    "href": "index.html#get-in-touch",
+    "title": "Home",
+    "section": "",
+    "text": "About Me\nLinkedIn\nGithub\n📧 jessicafelicia87@gmail.com"
+  },
+  {
+    "objectID": "projects/suncounty.html",
+    "href": "projects/suncounty.html",
+    "title": "Sun County Airlines – Customer Segmentation",
+    "section": "",
+    "text": "Sun County Airlines, a small U.S.-based carrier, faces pressure from larger competitors. To compete effectively, the company needs a deep understanding of its customers’ behavior, demographics, and travel preferences. This project uses unsupervised machine learning to segment customers into distinct groups for targeted marketing and product development.\n\n\n\n\n\nCombine and clean customer datasets from Excel\nIdentify key features relevant to customer behavior\nApply clustering to uncover unique customer groups\nProvide insights for strategic marketing decisions\n\n\n\n\n\nWe used two spreadsheets from Sun County Airlines containing customer booking and demographic data. After merging the data using Pandas in Google Colab, we selected the following variables:\n\nBirthdate (Age)\nBooking Class & Channel\nBase Fare Paid\nMembership Status\nProduct Type\nRoute Details\nGroup Size\nBooking Lead Time (days_pre_booked)\nSeasonality Habits\n\n\n\n\n\nWe used K-means clustering after standardizing numerical features and encoding categorical ones. The Elbow method suggested that k = 5 was optimal.\n\n\n\nPython (Pandas, Scikit-learn)\nGoogle Colab\nMatplotlib & Seaborn\nExcel (raw input files)\n\n\n\n\n\n\n\n\nMost frequently fly solo or in pairs, book standard class, and fly year-round.\n\n\n\n\n\n• Boost Visibility on Travel Platforms: Partner with OTAs and meta-search engines (e.g., Expedia, Skyscanner) to secure premium listings and improve flight discoverability.\n• Manage Reviews Proactively: Encourage satisfied customers to leave reviews and respond to feedback to build trust and reputation.\n• Offer Destination Bundles: Create travel packages for popular routes (e.g., BOS, DFW, LAX) by bundling flights with hotels or car rentals to attract deal-seeking travelers.\n\n\n\n\nGroup travelers, often younger, travel mainly during spring with discounted fares.\n\n\n\n\n\n• Promote Spring Travel Deals: Offer group discounts, family packages, and senior travel incentives to appeal to larger group travelers.\n• Bundle Group Packages: Partner with tour providers for all-inclusive deals that combine flights, hotels, and activities, optimized for multi-passenger bookings.\n• Highlight Senior-Friendly Services: Emphasize amenities like priority boarding, wheelchair assistance, and personalized service.\n• Drive Ufly Program Adoption: Incentivize loyalty signups with group booking bonuses, Q1 travel discounts, and senior-exclusive perks.\n\n\n\n\nYoungest cluster, budget-conscious, often use mobile booking channels.\n\n\n\n\n\n\nFrequent early months flights, loyal customers from Minneapolis hub.\n\n\n\n\n\n\nWide age range, price-driven, high sensitivity to sales and promotions."
+  },
+  {
+    "objectID": "projects/suncounty.html#project-overview",
+    "href": "projects/suncounty.html#project-overview",
+    "title": "Sun County Airlines – Customer Segmentation",
+    "section": "",
+    "text": "Sun County Airlines, a small U.S.-based carrier, faces pressure from larger competitors. To compete effectively, the company needs a deep understanding of its customers’ behavior, demographics, and travel preferences. This project uses unsupervised machine learning to segment customers into distinct groups for targeted marketing and product development."
+  },
+  {
+    "objectID": "projects/suncounty.html#objectives",
+    "href": "projects/suncounty.html#objectives",
+    "title": "Sun County Airlines – Customer Segmentation",
+    "section": "",
+    "text": "Combine and clean customer datasets from Excel\nIdentify key features relevant to customer behavior\nApply clustering to uncover unique customer groups\nProvide insights for strategic marketing decisions"
+  },
+  {
+    "objectID": "projects/suncounty.html#data-features",
+    "href": "projects/suncounty.html#data-features",
+    "title": "Sun County Airlines – Customer Segmentation",
+    "section": "",
+    "text": "We used two spreadsheets from Sun County Airlines containing customer booking and demographic data. After merging the data using Pandas in Google Colab, we selected the following variables:\n\nBirthdate (Age)\nBooking Class & Channel\nBase Fare Paid\nMembership Status\nProduct Type\nRoute Details\nGroup Size\nBooking Lead Time (days_pre_booked)\nSeasonality Habits"
+  },
+  {
+    "objectID": "projects/suncounty.html#methodology",
+    "href": "projects/suncounty.html#methodology",
+    "title": "Sun County Airlines – Customer Segmentation",
+    "section": "",
+    "text": "We used K-means clustering after standardizing numerical features and encoding categorical ones. The Elbow method suggested that k = 5 was optimal.\n\n\n\nPython (Pandas, Scikit-learn)\nGoogle Colab\nMatplotlib & Seaborn\nExcel (raw input files)"
+  },
+  {
+    "objectID": "projects/suncounty.html#key-segments-identified",
+    "href": "projects/suncounty.html#key-segments-identified",
+    "title": "Sun County Airlines – Customer Segmentation",
+    "section": "",
+    "text": "Most frequently fly solo or in pairs, book standard class, and fly year-round.\n\n\n\n\n\n\nGroup travelers, often younger, travel mainly during spring with discounted fares.\n\n\n\n\n\n\nYoungest cluster, budget-conscious, often use mobile booking channels.\n\n\n\n\n\n\nFrequent early months flights, loyal customers from Minneapolis hub.\n\n\n\n\n\n\nWide age range, price-driven, high sensitivity to sales and promotions."
+  },
+  {
+    "objectID": "projects/suncounty.html#key-segments-marketing-strategies",
+    "href": "projects/suncounty.html#key-segments-marketing-strategies",
+    "title": "Sun County Airlines – Customer Segmentation",
+    "section": "",
+    "text": "Most frequently fly solo or in pairs, book standard class, and fly year-round.\n\n\n\n\n\n• Boost Visibility on Travel Platforms: Partner with OTAs and meta-search engines (e.g., Expedia, Skyscanner) to secure premium listings and improve flight discoverability.\n• Manage Reviews Proactively: Encourage satisfied customers to leave reviews and respond to feedback to build trust and reputation.\n• Offer Destination Bundles: Create travel packages for popular routes (e.g., BOS, DFW, LAX) by bundling flights with hotels or car rentals to attract deal-seeking travelers.\n\n\n\n\nGroup travelers, often younger, travel mainly during spring with discounted fares.\n\n\n\n\n\n• Promote Spring Travel Deals: Offer group discounts, family packages, and senior travel incentives to appeal to larger group travelers.\n• Bundle Group Packages: Partner with tour providers for all-inclusive deals that combine flights, hotels, and activities, optimized for multi-passenger bookings.\n• Highlight Senior-Friendly Services: Emphasize amenities like priority boarding, wheelchair assistance, and personalized service.\n• Drive Ufly Program Adoption: Incentivize loyalty signups with group booking bonuses, Q1 travel discounts, and senior-exclusive perks.\n\n\n\n\nYoungest cluster, budget-conscious, often use mobile booking channels.\n\n\n\n\n\n\nFrequent early months flights, loyal customers from Minneapolis hub.\n\n\n\n\n\n\nWide age range, price-driven, high sensitivity to sales and promotions."
   }
 ]

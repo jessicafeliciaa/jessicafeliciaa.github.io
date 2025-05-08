@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jessica Felicia – My Portfolio</title>
+<title>Home – My Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -37,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-760831214350d9fe90b755395be50e1c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-cc6233b92224f1fae17ecbede1994a6f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -95,10 +95,25 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects/"> 
-<span class="menu-text">Projects</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="./projects/suncounty.html">
+ <span class="dropdown-text">Sun Country Segmentation</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/yelp_analysis.html">
+ <span class="dropdown-text">Yelp Analysis</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/amazon_customer_analysis.html">
+ <span class="dropdown-text">Amazon Customer Analysis</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -114,7 +129,16 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
   <ul>
-  <li><a href="#education" id="toc-education" class="nav-link active" data-scroll-target="#education">Education</a></li>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">👋 Welcome</a>
+  <ul class="collapse">
+  <li><a href="#featured-projects" id="toc-featured-projects" class="nav-link" data-scroll-target="#featured-projects">🚀 Featured Projects</a>
+  <ul class="collapse">
+  <li><a href="#customer-segmentation-sun-country-airlines" id="toc-customer-segmentation-sun-country-airlines" class="nav-link" data-scroll-target="#customer-segmentation-sun-country-airlines">✈️ Customer Segmentation – Sun Country Airlines</a></li>
+  <li><a href="#netflix-recommendation-engine" id="toc-netflix-recommendation-engine" class="nav-link" data-scroll-target="#netflix-recommendation-engine">🎬 Netflix Recommendation Engine</a></li>
+  <li><a href="#yelp-analysis" id="toc-yelp-analysis" class="nav-link" data-scroll-target="#yelp-analysis">📊 Yelp Analysis</a></li>
+  </ul></li>
+  <li><a href="#get-in-touch" id="toc-get-in-touch" class="nav-link" data-scroll-target="#get-in-touch">📫 Get in Touch</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -124,36 +148,50 @@ ul.task-list li input[type="checkbox"] {
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Jessica Felicia</h1>
+<h1 class="title">Home</h1>
 </div>
 <div class="quarto-title-meta">
   </div>
-</header> <div class="about-links">
-  <a href="https://www.linkedin.com/in/jessicafelicia/<yourhandle>" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/jessicafeliciaa<yourhandle>" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
-</div>
+</header> 
       <div class="about-contents"><main class="content" id="quarto-document-content">
 
-<p>Summary</p>
-<section id="education" class="level1">
-<h1>Education</h1>
-<p><strong>University of California, Irvine</strong> | Irvine, CA</p>
-<p>Master of Scinece in Business Analytics | August 2024 - June 2025</p>
-<p>** San Jose State Unviersity** | San Jose, CA</p>
-<p>B.S. Computer Science | August 2019 - December 2021</p>
+<section id="welcome" class="level1">
+<h1>👋 Welcome</h1>
+<p>Hi, I’m <strong>Jessica Felicia</strong>, a Business Analytics Master’s student at UCI Paul Merage School of Business. I specialize in <strong>Data and Marketing Analytics</strong>, and I love using data to improve customer experiences, optimize strategies, and inform business decisions.</p>
+<hr>
+<section id="featured-projects" class="level2">
+<h2 data-anchor-id="featured-projects">🚀 Featured Projects</h2>
+<section id="customer-segmentation-sun-country-airlines" class="level3">
+<h3 data-anchor-id="customer-segmentation-sun-country-airlines">✈️ Customer Segmentation – Sun Country Airlines</h3>
+<p>Used K-means clustering to identify 5 unique customer segments based on booking, travel, and demographic data.<br>
+👉 <a href="suncountry.qmd">Github Repo</a></p>
+</section>
+<section id="netflix-recommendation-engine" class="level3">
+<h3 data-anchor-id="netflix-recommendation-engine">🎬 Netflix Recommendation Engine</h3>
+<p>Built a personalized recommendation system using NLP techniques and cosine similarity on movie descriptions.<br>
+👉 <a href="https://github.com/your-username/netflix-recommender">Github Repo</a></p>
+</section>
+<section id="yelp-analysis" class="level3">
+<h3 data-anchor-id="yelp-analysis">📊 Yelp Analysis</h3>
+<p>Created an interactive dashboard in Tableau to analyze churn risk and track retention metrics in real time.<br>
+👉 <a href="https://public.tableau.com/views/YourDashboardLink">View Dashboard</a></p>
+<hr>
+</section>
+</section>
+<section id="get-in-touch" class="level2">
+<h2 data-anchor-id="get-in-touch">📫 Get in Touch</h2>
+<ul>
+<li><a href="./about.html">About Me</a></li>
+<li><a href="https://www.linkedin.com/in/jessicafelicia/">LinkedIn</a></li>
+<li><a href="https://github.com/jessicafeliciaa">Github</a></li>
+<li>📧 jessicafelicia87@gmail.com</li>
+</ul>
 
 
 </section>
+</section>
 </main></div>
     </div>
-    <img src="images/headshot.jpeg" class="about-image
-  rounded " style="width: 15em;">
   </div>
 </div>
  <!-- /main -->
