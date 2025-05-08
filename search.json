@@ -1,30 +1,401 @@
 [
   {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
+    "objectID": "projects/suncounty-customer-segmentation.html",
+    "href": "projects/suncounty-customer-segmentation.html",
+    "title": "✈️ Customer Segmentation for Sun Country Airlines",
     "section": "",
-    "text": "Project A"
+    "text": "Sun County Airlines, a small U.S.-based carrier, faces pressure from larger competitors. To compete effectively, the company needs a deep understanding of its customers’ behavior, demographics, and travel preferences. This project uses unsupervised machine learning to segment customers into distinct groups for targeted marketing and product development."
+  },
+  {
+    "objectID": "projects/suncounty-customer-segmentation.html#project-overview",
+    "href": "projects/suncounty-customer-segmentation.html#project-overview",
+    "title": "✈️ Customer Segmentation for Sun Country Airlines",
+    "section": "",
+    "text": "Sun County Airlines, a small U.S.-based carrier, faces pressure from larger competitors. To compete effectively, the company needs a deep understanding of its customers’ behavior, demographics, and travel preferences. This project uses unsupervised machine learning to segment customers into distinct groups for targeted marketing and product development."
+  },
+  {
+    "objectID": "projects/suncounty-customer-segmentation.html#objectives",
+    "href": "projects/suncounty-customer-segmentation.html#objectives",
+    "title": "✈️ Customer Segmentation for Sun Country Airlines",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nCombine and clean customer datasets from Excel\nIdentify key features relevant to customer behavior\nApply KMeans Clustering to uncover unique customer groups\nProvide insights for strategic marketing decisions"
+  },
+  {
+    "objectID": "projects/suncounty-customer-segmentation.html#data-features",
+    "href": "projects/suncounty-customer-segmentation.html#data-features",
+    "title": "✈️ Customer Segmentation for Sun Country Airlines",
+    "section": "🗂️ Data & Features",
+    "text": "🗂️ Data & Features\nWe used two spreadsheets from Sun County Airlines containing customer booking and demographic data. After merging the data using Pandas in Google Colab, we selected the following variables:\n\nBirthdate (Age)\nBooking Class & Channel\nBase Fare Paid\nMembership Status\nProduct Type\nRoute Details\nGroup Size\nBooking Lead Time (days_pre_booked)\nSeasonality Habits"
+  },
+  {
+    "objectID": "projects/suncounty-customer-segmentation.html#methodology",
+    "href": "projects/suncounty-customer-segmentation.html#methodology",
+    "title": "✈️ Customer Segmentation for Sun Country Airlines",
+    "section": "🔍 Methodology",
+    "text": "🔍 Methodology\nWe used K-means clustering after standardizing numerical features and encoding categorical ones. The Elbow method suggested that k = 5 was optimal.\n\n\n\n\n🧮 Tools Used\n\nPython (Pandas, Scikit-learn)\nGoogle Colab\nMatplotlib & Seaborn\nExcel (raw input files)"
+  },
+  {
+    "objectID": "projects/suncounty-customer-segmentation.html#key-segments-marketing-strategies",
+    "href": "projects/suncounty-customer-segmentation.html#key-segments-marketing-strategies",
+    "title": "✈️ Customer Segmentation for Sun Country Airlines",
+    "section": "📊 Key Segments & Marketing Strategies",
+    "text": "📊 Key Segments & Marketing Strategies\n\nCluster 0 – Middle-Aged Standard Travelers\nMost frequently fly solo or in pairs, book standard class, and fly year-round.\n\n\n\n\n💸 Marketing Strategies:\n• Boost Visibility on Travel Platforms: Partner with OTAs and meta-search engines (e.g., Expedia, Skyscanner) to secure premium listings and improve flight discoverability.\n• Manage Reviews Proactively: Encourage satisfied customers to leave reviews and respond to feedback to build trust and reputation.\n• Offer Destination Bundles: Create travel packages for popular routes (e.g., BOS, DFW, LAX) by bundling flights with hotels or car rentals to attract deal-seeking travelers.\n\n\n\nCluster 1 – Spring Squad Adventurers\nGroup travelers, often younger, travel mainly during spring with discounted fares.\n\n\n\n\n💸 Marketing Strategies:\n• Promote Spring Travel Deals: Offer group discounts, family packages, and senior travel incentives to appeal to larger group travelers.\n• Bundle Group Packages: Partner with tour providers for all-inclusive deals that combine flights, hotels, and activities, optimized for multi-passenger bookings.\n• Highlight Senior-Friendly Services: Emphasize amenities like priority boarding, wheelchair assistance, and personalized service.\n• Drive Ufly Program Adoption: Incentivize loyalty signups with group booking bonuses, Q1 travel discounts, and senior-exclusive perks.\n\n\n\nCluster 2 – Adventurous Young Budget Travelers\nYoungest cluster, budget-conscious, often use mobile booking channels.\n\n\n\n\n💸 Marketing Strategies:\n• Emphasize Comfort & Loyalty Benefits: Promote premium features like extra legroom, priority boarding, and UFly bonus points to appeal to their comfort-seeking preferences.\n• Encourage Early Bookings: Launch Q4 campaigns like “Fly Home for the Holidays” with early-bird discounts and flexible booking options to match their organized travel habits.\n\n\n\nCluster 3 – Early Minneapolis Travelers\nFrequent early months flights, loyal customers from Minneapolis hub.\n\n\n\n\n💸 Marketing Strategies:\n• Time Campaigns Around Booking Habits: Launch promotions in early October and late December to align with their 61-day pre-booking window and holiday shopping season.\n• Seasonal Messaging: Use timely slogans like “Fly into the new year with this great offer!” to boost early-year travel bookings.\n• Reward MSP Loyalty: Offer exclusive perks such as lounge access, Wi-Fi, or local discounts to retain Minneapolis-based flyers.\n\n\n\nCluster 4 – Age-Blend Bargain Birds\nWide age range, price-driven, high sensitivity to sales and promotions.\n\n\n\n\n💸 Marketing Strategies:\n• Highlight Affordability: Emphasize budget-friendly travel, value-for-money bundles, and exclusive online deals to attract this cost-conscious, age-diverse group.\n• Inclusive Messaging: Use language that resonates with all age groups, focusing on the benefits of early planning and direct booking.\n• Offer Age-Based & Bundle Discounts: Promote senior savings, youth specials, and flight + accommodation/car rental bundles to increase appeal and direct engagement on the SCA website."
+  },
+  {
+    "objectID": "projects/suncounty-customer-segmentation.html#conclusion",
+    "href": "projects/suncounty-customer-segmentation.html#conclusion",
+    "title": "✈️ Customer Segmentation for Sun Country Airlines",
+    "section": "🧾 Conclusion",
+    "text": "🧾 Conclusion\nThrough the application of K-means clustering, we successfully identified five distinct customer segments for Sun Country Airlines. These clusters revealed meaningful patterns in booking behavior, travel timing, group sizes, and fare preferences. By segmenting customers in this way, the airline can personalize its marketing efforts, develop more tailored promotions, and optimize resource allocation for customer engagement.\nThis segmentation lays the groundwork for targeted marketing strategies, such as offering mobile booking incentives for younger travelers or loyalty perks for high-value solo fliers.\nThe process also demonstrated the power of combining raw Excel data with Python-based clustering and visualization tools to drive business insight. With scalable implementation, this approach could become part of a broader customer intelligence system at Sun Country."
+  },
+  {
+    "objectID": "projects/suncounty-customer-segmentation.html#future-enhancements",
+    "href": "projects/suncounty-customer-segmentation.html#future-enhancements",
+    "title": "✈️ Customer Segmentation for Sun Country Airlines",
+    "section": "🔄 Future Enhancements",
+    "text": "🔄 Future Enhancements\n\nIncorporate additional behavioral data such as frequency of bookings and flight satisfaction\nExplore supervised models for predicting customer loyalty or churn\nBuild a dashboard (Tableau or Streamlit) for real-time cluster monitoring"
+  },
+  {
+    "objectID": "projects/suncounty-customer-segmentation.html#github-repository",
+    "href": "projects/suncounty-customer-segmentation.html#github-repository",
+    "title": "✈️ Customer Segmentation for Sun Country Airlines",
+    "section": "📎 GitHub Repository",
+    "text": "📎 GitHub Repository\n👉 View Code on GitHub"
+  },
+  {
+    "objectID": "projects/netflix-recommendation.html",
+    "href": "projects/netflix-recommendation.html",
+    "title": "🎬 Netflix Recommendation System & Chatbot",
+    "section": "",
+    "text": "This project combines Natural Language Processing (NLP), content clustering, and chatbot integration to create a personalized movie and TV show recommendation system using a dataset of Netflix titles. The goal was to improve content discoverability by grouping shows based on themes and responding to user preferences through an interactive chatbot interface."
+  },
+  {
+    "objectID": "projects/netflix-recommendation.html#project-overview",
+    "href": "projects/netflix-recommendation.html#project-overview",
+    "title": "🎬 Netflix Recommendation System & Chatbot",
+    "section": "",
+    "text": "This project combines Natural Language Processing (NLP), content clustering, and chatbot integration to create a personalized movie and TV show recommendation system using a dataset of Netflix titles. The goal was to improve content discoverability by grouping shows based on themes and responding to user preferences through an interactive chatbot interface."
+  },
+  {
+    "objectID": "projects/netflix-recommendation.html#objectives",
+    "href": "projects/netflix-recommendation.html#objectives",
+    "title": "🎬 Netflix Recommendation System & Chatbot",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nBuild a content-based recommendation system using NLP techniques.\nExtract core themes and patterns from Netflix descriptions using tokenization and TF-IDF.\nImplement unsupervised clustering to group similar content.\nDeploy a chatbot that responds to user inputs and delivers tailored suggestions.\nEvaluate genre prediction and chatbot relevance using both quantitative and qualitative feedback."
+  },
+  {
+    "objectID": "projects/netflix-recommendation.html#data-preprocessing-nlp-techniques",
+    "href": "projects/netflix-recommendation.html#data-preprocessing-nlp-techniques",
+    "title": "🎬 Netflix Recommendation System & Chatbot",
+    "section": "🧹 Data Preprocessing & NLP Techniques",
+    "text": "🧹 Data Preprocessing & NLP Techniques\n\nMissing Values: Dataset was complete with no missing fields.\nAge Classification: Converted age ratings into numeric values for content filtering.\nTokenization & Lemmatization: Applied NLTK to clean and standardize text descriptions.\nTF-IDF Vectorization: Extracted key terms and themes from descriptions for clustering and recommendations."
+  },
+  {
+    "objectID": "projects/netflix-recommendation.html#clustering-insights",
+    "href": "projects/netflix-recommendation.html#clustering-insights",
+    "title": "🎬 Netflix Recommendation System & Chatbot",
+    "section": "🧠 Clustering Insights",
+    "text": "🧠 Clustering Insights\nUsed K-means clustering to group titles into 6 thematic categories:\n\n\n\n\n\n\n\n\nCluster\nTheme\nExamples\n\n\n\n\n1\nBig City Life & Personal Discovery\nBlood & Water, Ganglands\n\n\n2\nLove & Life Journeys\nMidnight Mass, Je Suis Karl\n\n\n3\nComing-of-Age\nKota Factory, Dhanak\n\n\n4\nMusic & Art\nNailed It!, Rhyme & Reason\n\n\n5\nConnection & Discovery\nSankofa, Great British Baking Show\n\n\n6\nDocumentaries & Real-Life Stories\nDick Johnson Is Dead, Intrusion"
+  },
+  {
+    "objectID": "projects/netflix-recommendation.html#recommendation-system",
+    "href": "projects/netflix-recommendation.html#recommendation-system",
+    "title": "🎬 Netflix Recommendation System & Chatbot",
+    "section": "🤖 Recommendation System",
+    "text": "🤖 Recommendation System\nThe system processes user inputs like genre, actor, type, sentiment, and keywords to generate TF-IDF-based vectors. It then calculates cosine similarity scores and ranks top 5 content matches.\nExample Input:\nGenre: Comedy | Actor: Tom | Sentiment: funny | Keyword: vacation\nTop Match: Jim Gaffigan: Cinco (similarity score: 0.253)"
+  },
+  {
+    "objectID": "projects/netflix-recommendation.html#chatbot-integration",
+    "href": "projects/netflix-recommendation.html#chatbot-integration",
+    "title": "🎬 Netflix Recommendation System & Chatbot",
+    "section": "💬 Chatbot Integration",
+    "text": "💬 Chatbot Integration\nA chatbot interface was developed to make recommendations conversational and intuitive. It:\n\nAccepts free-text user inputs\nParses for preferences (e.g., actor, genre, tone)\nReturns top-matching Netflix titles with similarity scores\n\n\nExample: The chatbot asks for your favorite actor (Ama Qamata) and genre (Comedy), then returns matching stand-up specials and light-hearted shows."
+  },
+  {
+    "objectID": "projects/netflix-recommendation.html#conclusion",
+    "href": "projects/netflix-recommendation.html#conclusion",
+    "title": "🎬 Netflix Recommendation System & Chatbot",
+    "section": "🧾 Conclusion",
+    "text": "🧾 Conclusion\nThis project demonstrates how NLP and conversational AI can enhance media recommendations. Through clustering, tokenization, and cosine similarity, we created a dynamic, personalized content discovery experience. The chatbot allows users to interact naturally, making movie and TV recommendations feel more human and tailored."
+  },
+  {
+    "objectID": "projects/netflix-recommendation.html#limitations",
+    "href": "projects/netflix-recommendation.html#limitations",
+    "title": "🎬 Netflix Recommendation System & Chatbot",
+    "section": "⚠️ Limitations",
+    "text": "⚠️ Limitations\nWhile the system provides personalized recommendations and interactive chatbot responses, there are a few limitations:\n\nMulti-label Genre Complexity: Many titles belong to multiple genres, making it difficult for models to predict accurately from tokenized descriptions alone.\nText Ambiguity: Descriptions often contain vague or overlapping themes, reducing classification precision.\nModel Performance: Genre classification models (e.g., Logistic Regression, Naive Bayes) yielded relatively low F1 scores, indicating room for improvement in multi-label learning.\nUser Input Limitations: The chatbot depends on structured inputs (e.g., genre, sentiment), and may struggle with ambiguous or unrelated queries.\nCold Start Problem: The system does not incorporate real-time user behavior or preferences, limiting adaptability for new users.\n\nFuture enhancements could include deep learning models, multi-label classification improvements, and feedback-based recommendation tuning."
+  },
+  {
+    "objectID": "projects/netflix-recommendation.html#github-repository",
+    "href": "projects/netflix-recommendation.html#github-repository",
+    "title": "🎬 Netflix Recommendation System & Chatbot",
+    "section": "📎 GitHub Repository",
+    "text": "📎 GitHub Repository\n👉 View Code on GitHub"
+  },
+  {
+    "objectID": "projects/project.html",
+    "href": "projects/project.html",
+    "title": "My Portfolio",
+    "section": "",
+    "text": "Used K-means clustering to segment airline customers by behavior and demographics, enabling targeted marketing strategies for each group.\nTools: Python, Pandas, K-means, Seaborn, Google Colab\n\n\n\n\nA personalized movie and TV recommender with chatbot interaction, using NLP, clustering, and TF-IDF similarity scoring.\nTools: Python, NLTK, Scikit-learn, Cosine Similarity, TF-IDF\n\n\n\n\nUsed machine learning to identify at-risk banking customers and reduce silent attrition through data-driven retention strategies.\nTools: Python, Random Forest, SMOTE, Pandas, Scikit-learn\n\n\n\n\nAnalyzed Amazon product reviews using NLP and classification models to uncover customer sentiment patterns.\nTools: Python, TF-IDF, Logistic Regression, Naive Bayes\n\n\n\n\nExplored cuisine trends and modeled restaurant success using Yelp reviews and machine learning.\nTools: Python, Random Forest, KNN, Data Visualization"
+  },
+  {
+    "objectID": "projects/project.html#projects",
+    "href": "projects/project.html#projects",
+    "title": "My Portfolio",
+    "section": "",
+    "text": "Used K-means clustering to segment airline customers by behavior and demographics, enabling targeted marketing strategies for each group.\nTools: Python, Pandas, K-means, Seaborn, Google Colab\n\n\n\n\nA personalized movie and TV recommender with chatbot interaction, using NLP, clustering, and TF-IDF similarity scoring.\nTools: Python, NLTK, Scikit-learn, Cosine Similarity, TF-IDF\n\n\n\n\nUsed machine learning to identify at-risk banking customers and reduce silent attrition through data-driven retention strategies.\nTools: Python, Random Forest, SMOTE, Pandas, Scikit-learn\n\n\n\n\nAnalyzed Amazon product reviews using NLP and classification models to uncover customer sentiment patterns.\nTools: Python, TF-IDF, Logistic Regression, Naive Bayes\n\n\n\n\nExplored cuisine trends and modeled restaurant success using Yelp reviews and machine learning.\nTools: Python, Random Forest, KNN, Data Visualization"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Jessica Felicia",
+    "title": "Home",
     "section": "",
-    "text": "Summary\n\nEducation\nUniversity of California, Irvine | Irvine, CA\nMaster of Scinece in Business Analytics | August 2024 - June 2025\nSan Jose State Unviersity | San Jose, CA\nB.S. Computer Science | August 2019 - December 2021"
+    "text": "Hi, I’m Jessica Felicia, a Masters student in Business Analytics at the Paul Merage School of Business, University of Irvine. I enjoy solving business problems through data, especially in the areas of marketing strategy, customer insight, and predictive analytics.\n\n\n\n\n📊 Build machine learning models to predict churn, segment customers, and uncover patterns\n🧠 Apply NLP and clustering to personalize experiences\n📈 Create dashboards and visual stories using Tableau & Python\n🤝 Communicate findings that drive strategic decisions\n\n\n\n\n\n\n🙋🏻‍♀️ About Me\n🚀 Projects\n\n\n\n\n\nGitHub\nLinkedIn\nEmail"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Home",
     "section": "",
-    "text": "I’m a Master Student majoring in Business Analytics at Paul Merage School of Business, Irvine."
+    "text": "📊 Build machine learning models to predict churn, segment customers, and uncover patterns\n🧠 Apply NLP and clustering to personalize experiences\n📈 Create dashboards and visual stories using Tableau & Python\n🤝 Communicate findings that drive strategic decisions"
   },
   {
-    "objectID": "about.html#who-am-i",
-    "href": "about.html#who-am-i",
-    "title": "About",
+    "objectID": "index.html#explore",
+    "href": "index.html#explore",
+    "title": "Home",
     "section": "",
-    "text": "I’m a Master Student majoring in Business Analytics at Paul Merage School of Business, Irvine."
+    "text": "🙋🏻‍♀️ About Me\n🚀 Projects"
+  },
+  {
+    "objectID": "index.html#get-in-touch",
+    "href": "index.html#get-in-touch",
+    "title": "Home",
+    "section": "",
+    "text": "GitHub\nLinkedIn\nEmail"
+  },
+  {
+    "objectID": "about.html#core-interests-strengths",
+    "href": "about.html#core-interests-strengths",
+    "title": "About Me",
+    "section": "📌 Core Interests & Strengths",
+    "text": "📌 Core Interests & Strengths\n\nData & Marketing Analytics\nCustomer Segmentation & Personalization\nData Visualization & Storytelling\nMachine Learning"
+  },
+  {
+    "objectID": "about.html#technical-toolkit",
+    "href": "about.html#technical-toolkit",
+    "title": "About Me",
+    "section": "🔧 Technical Toolkit",
+    "text": "🔧 Technical Toolkit\n\nLanguages: Python, SQL, Java, R (basic)\nTools: Tableau, Excel, Google Colab, Git\nLibraries: Pandas, Scikit-learn, Matplotlib, Seaborn"
+  },
+  {
+    "objectID": "about.html#goals-mindset",
+    "href": "about.html#goals-mindset",
+    "title": "About Me",
+    "section": "🎯 Goals & Mindset",
+    "text": "🎯 Goals & Mindset\nAs an aspiring data-driven professional, I’m always learning and eager to work on impactful projects that connect analytics to business value. Whether it’s optimizing customer journeys, exploring behavior through clustering, or crafting dashboards for decision-makers, I aim to bring clarity through data.\nLet’s connect and create something meaningful together!"
+  },
+  {
+    "objectID": "projects/yelp-restaurant-ratings-analysis.html",
+    "href": "projects/yelp-restaurant-ratings-analysis.html",
+    "title": "🍽️ Yelp Restaurant Ratings Analysis",
+    "section": "",
+    "text": "This project analyzes Yelp restaurant data across California to identify key drivers behind customer ratings and provide actionable insights for small restaurant owners. Using machine learning models and data visualizations, the study reveals how cuisine type, location, and customer feedback influence restaurant success."
+  },
+  {
+    "objectID": "projects/yelp-restaurant-ratings-analysis.html#project-overview",
+    "href": "projects/yelp-restaurant-ratings-analysis.html#project-overview",
+    "title": "🍽️ Yelp Restaurant Ratings Analysis",
+    "section": "",
+    "text": "This project analyzes Yelp restaurant data across California to identify key drivers behind customer ratings and provide actionable insights for small restaurant owners. Using machine learning models and data visualizations, the study reveals how cuisine type, location, and customer feedback influence restaurant success."
+  },
+  {
+    "objectID": "projects/yelp-restaurant-ratings-analysis.html#objectives",
+    "href": "projects/yelp-restaurant-ratings-analysis.html#objectives",
+    "title": "🍽️ Yelp Restaurant Ratings Analysis",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nIdentify popular cuisines and their rating patterns\nUnderstand the impact of location and number of reviews on ratings\nPredict restaurant success using classification models\nSupport small restaurant owners with data-driven strategies"
+  },
+  {
+    "objectID": "projects/yelp-restaurant-ratings-analysis.html#data-methods",
+    "href": "projects/yelp-restaurant-ratings-analysis.html#data-methods",
+    "title": "🍽️ Yelp Restaurant Ratings Analysis",
+    "section": "🗂️ Data & Methods",
+    "text": "🗂️ Data & Methods\n\nData Source: Yelp data scraped via Python (2,177 restaurant entries)\nFeatures: Cuisine type, review count, price range, location (lat/lon), rating\nTools: Python, Pandas, Scikit-learn, Matplotlib\nModels Used: Decision Tree, K-Nearest Neighbor, Random Forest"
+  },
+  {
+    "objectID": "projects/yelp-restaurant-ratings-analysis.html#key-insights",
+    "href": "projects/yelp-restaurant-ratings-analysis.html#key-insights",
+    "title": "🍽️ Yelp Restaurant Ratings Analysis",
+    "section": "📊 Key Insights",
+    "text": "📊 Key Insights\n\nTop Cuisines: Mexican, New American, and Italian are the most popular in California\nMexican Cuisine: Shows wide variability in ratings, indicating inconsistent experiences\nLocation & Review Count Matter: These were the most important predictors in rating performance"
+  },
+  {
+    "objectID": "projects/yelp-restaurant-ratings-analysis.html#model-performance",
+    "href": "projects/yelp-restaurant-ratings-analysis.html#model-performance",
+    "title": "🍽️ Yelp Restaurant Ratings Analysis",
+    "section": "🤖 Model Performance",
+    "text": "🤖 Model Performance\n\n\n\nModel\nAccuracy\nF1 Score\nPrecision\nRecall\n\n\n\n\nDecision Tree\n61.7%\n0.72\n0.76\n0.69\n\n\nKNN (Tuned)\n64.1%\n0.77\n0.66\n0.93\n\n\nRandom Forest\n71.8%\n0.81\n0.74\n0.89\n\n\n\n\nRandom Forest performed best overall, identifying high-rated restaurants effectively.\nKNN excelled in recall, while Decision Tree had the fewest false positives."
+  },
+  {
+    "objectID": "projects/yelp-restaurant-ratings-analysis.html#business-recommendations",
+    "href": "projects/yelp-restaurant-ratings-analysis.html#business-recommendations",
+    "title": "🍽️ Yelp Restaurant Ratings Analysis",
+    "section": "💼 Business Recommendations",
+    "text": "💼 Business Recommendations\n\nLocation Strategy: Choose areas with high traffic or market through social platforms to boost visibility in suburban areas.\nReview Management: Actively solicit and respond to reviews to enhance credibility and ratings.\nQuality Consistency: Standardize food and service quality, especially in cuisines with rating volatility like Mexican."
+  },
+  {
+    "objectID": "projects/yelp-restaurant-ratings-analysis.html#conclusion",
+    "href": "projects/yelp-restaurant-ratings-analysis.html#conclusion",
+    "title": "🍽️ Yelp Restaurant Ratings Analysis",
+    "section": "🧾 Conclusion",
+    "text": "🧾 Conclusion\nThis project highlights how Yelp data can help small restaurants better understand customer behavior and optimize operations. By applying machine learning and analysis techniques, restaurant owners can gain strategic insights into location, cuisine impact, and review management—ultimately leading to better customer satisfaction and improved performance."
+  },
+  {
+    "objectID": "projects/yelp-restaurant-ratings-analysis.html#github-repository",
+    "href": "projects/yelp-restaurant-ratings-analysis.html#github-repository",
+    "title": "🍽️ Yelp Restaurant Ratings Analysis",
+    "section": "📎 GitHub Repository",
+    "text": "📎 GitHub Repository\n👉 View Code on GitHub"
+  },
+  {
+    "objectID": "projects/amazon-product-analysis.html",
+    "href": "projects/amazon-product-analysis.html",
+    "title": "🛍️ Amazon Product Reviews Sentiment Analysis",
+    "section": "",
+    "text": "This project analyzes customer sentiment from Amazon product reviews using natural language processing and machine learning techniques. The goal was to understand common customer opinions, how review length correlates with sentiment and rating, and to evaluate which models best classify review sentiment."
+  },
+  {
+    "objectID": "projects/amazon-product-analysis.html#project-overview",
+    "href": "projects/amazon-product-analysis.html#project-overview",
+    "title": "🛍️ Amazon Product Reviews Sentiment Analysis",
+    "section": "",
+    "text": "This project analyzes customer sentiment from Amazon product reviews using natural language processing and machine learning techniques. The goal was to understand common customer opinions, how review length correlates with sentiment and rating, and to evaluate which models best classify review sentiment."
+  },
+  {
+    "objectID": "projects/amazon-product-analysis.html#objectives",
+    "href": "projects/amazon-product-analysis.html#objectives",
+    "title": "🛍️ Amazon Product Reviews Sentiment Analysis",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nIdentify common themes in positive vs. negative reviews\nExamine the relationship between review length, sentiment, and product rating\nEvaluate classification models for sentiment prediction"
+  },
+  {
+    "objectID": "projects/amazon-product-analysis.html#data-methods",
+    "href": "projects/amazon-product-analysis.html#data-methods",
+    "title": "🛍️ Amazon Product Reviews Sentiment Analysis",
+    "section": "🗂️ Data & Methods",
+    "text": "🗂️ Data & Methods\n\nData: Amazon review dataset (1,465 reviews, 16 variables) from Kaggle\n\nText Preprocessing: Lowercasing, punctuation removal, stopword removal, tokenization\n\nFeature Engineering: TF-IDF with n-grams\n\nSentiment Labeling: VADER lexicon to classify sentiment as Positive, Neutral, or Negative\n\nModels Used: Logistic Regression, Random Forest, Support Vector Machine (SVM)"
+  },
+  {
+    "objectID": "projects/amazon-product-analysis.html#key-insights",
+    "href": "projects/amazon-product-analysis.html#key-insights",
+    "title": "🛍️ Amazon Product Reviews Sentiment Analysis",
+    "section": "🔍 Key Insights",
+    "text": "🔍 Key Insights\n\nStrong Positive Bias: Majority of reviews were classified as positive; neutral and negative reviews were underrepresented.\nReview Length Matters: Longer reviews were slightly more likely to be positive, but the correlation was weak.\nThemes:\n\nPositive: “value for money,” “sound quality,” “lightweight”\nNegative: “poor quality,” “charging cable,” “don’t buy”"
+  },
+  {
+    "objectID": "projects/amazon-product-analysis.html#model-performance",
+    "href": "projects/amazon-product-analysis.html#model-performance",
+    "title": "🛍️ Amazon Product Reviews Sentiment Analysis",
+    "section": "🤖 Model Performance",
+    "text": "🤖 Model Performance\n\n\n\n\n\n\n\n\n\nModel\nAccuracy\nStrengths\nWeaknesses\n\n\n\n\nLogistic Regression\n92%\nHigh recall for positive reviews\nPoor detection of neutral/negative\n\n\nRandom Forest\n91%\nRobust with positive sentiment\nWeak on negative (recall: 0.06)\n\n\nSVM\n92%\nBalanced and strong on positives\nMisclassified most negatives/neutral"
+  },
+  {
+    "objectID": "projects/amazon-product-analysis.html#business-impact",
+    "href": "projects/amazon-product-analysis.html#business-impact",
+    "title": "🛍️ Amazon Product Reviews Sentiment Analysis",
+    "section": "💡 Business Impact",
+    "text": "💡 Business Impact\n\nProduct Improvement: Frequent negative terms flagged areas for design or quality fixes.\nMarketing: Highlighted strengths (e.g., sound quality) can inform ad copy and product positioning.\nCustomer Engagement: Long, detailed reviews suggest satisfaction; prompting longer feedback could yield richer insights."
+  },
+  {
+    "objectID": "projects/amazon-product-analysis.html#limitations-future-enhancement",
+    "href": "projects/amazon-product-analysis.html#limitations-future-enhancement",
+    "title": "🛍️ Amazon Product Reviews Sentiment Analysis",
+    "section": "🔄 Limitations & Future Enhancement",
+    "text": "🔄 Limitations & Future Enhancement\n\nImbalanced dataset (mostly positive reviews) biased model performance\nModels underperformed on neutral and negative reviews\nFuture improvements: class balancing, hyperparameter tuning, and deep learning approaches"
+  },
+  {
+    "objectID": "projects/amazon-product-analysis.html#conclusion",
+    "href": "projects/amazon-product-analysis.html#conclusion",
+    "title": "🛍️ Amazon Product Reviews Sentiment Analysis",
+    "section": "🧾 Conclusion",
+    "text": "🧾 Conclusion\nThis project demonstrated how sentiment analysis can uncover key customer insights from product reviews. Despite model limitations with neutral and negative classification, positive feedback was effectively captured. Further model tuning and data balancing could enhance accuracy across all sentiment categories, supporting more informed business decisions."
+  },
+  {
+    "objectID": "projects/amazon-product-analysis.html#github-repository",
+    "href": "projects/amazon-product-analysis.html#github-repository",
+    "title": "🛍️ Amazon Product Reviews Sentiment Analysis",
+    "section": "📎 GitHub Repository",
+    "text": "📎 GitHub Repository\n👉 View Code on GitHub"
+  },
+  {
+    "objectID": "projects/bank-churn-prediction.html",
+    "href": "projects/bank-churn-prediction.html",
+    "title": "🏦 Predicting Bank Customer Churn",
+    "section": "",
+    "text": "As digital banking continues to grow, identifying and preventing customer churn—especially silent attrition—has become critical for banks. This project applied multiple machine learning models to predict customer churn and uncover key behavioral and demographic risk factors to enable proactive retention strategies."
+  },
+  {
+    "objectID": "projects/bank-churn-prediction.html#project-overview",
+    "href": "projects/bank-churn-prediction.html#project-overview",
+    "title": "🏦 Predicting Bank Customer Churn",
+    "section": "",
+    "text": "As digital banking continues to grow, identifying and preventing customer churn—especially silent attrition—has become critical for banks. This project applied multiple machine learning models to predict customer churn and uncover key behavioral and demographic risk factors to enable proactive retention strategies."
+  },
+  {
+    "objectID": "projects/bank-churn-prediction.html#objectives",
+    "href": "projects/bank-churn-prediction.html#objectives",
+    "title": "🏦 Predicting Bank Customer Churn",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nVisualize current customer behavior and demographics\nBuild predictive models to classify customers at risk of churn\nIdentify actionable drivers of attrition for strategic intervention"
+  },
+  {
+    "objectID": "projects/bank-churn-prediction.html#data-methods",
+    "href": "projects/bank-churn-prediction.html#data-methods",
+    "title": "🏦 Predicting Bank Customer Churn",
+    "section": "🗂️ Data & Methods",
+    "text": "🗂️ Data & Methods\n\nData: 10,000 records from a European bank (Kaggle)\nFeatures: Age, Gender, Geography, Balance, Tenure, Products, Activity, etc.\nTools: Python, Scikit-learn, SMOTE, PCA\nModels Used: Logistic Regression, Gaussian Naive Bayes, Decision Tree, Random Forest"
+  },
+  {
+    "objectID": "projects/bank-churn-prediction.html#model-performance-summary",
+    "href": "projects/bank-churn-prediction.html#model-performance-summary",
+    "title": "🏦 Predicting Bank Customer Churn",
+    "section": "🤖 Model Performance Summary",
+    "text": "🤖 Model Performance Summary\n\n\n\n\n\n\n\n\n\n\nModel\nAccuracy\nPrecision (Churn)\nRecall (Churn)\nF1-Score (Churn)\n\n\n\n\nLogistic Regression\n80.9%\n60%\n19% → 77% (with SMOTE)\n29% → 77%\n\n\nNaive Bayes\n78.7%\n36% → 70%\n6% → 74%\n11% → 72%\n\n\nDecision Tree\n85% (after pruning)\n80%\n37%\n51%\n\n\nRandom Forest\n86% → 84% (with SMOTE)\n76% → 58%\n47% → 64%\n58% → 61%\n\n\n\n\n✅ Random Forest with SMOTE achieved the best balance for identifying churners, despite a slight drop in precision."
+  },
+  {
+    "objectID": "projects/bank-churn-prediction.html#feature-importance-logistic-regression",
+    "href": "projects/bank-churn-prediction.html#feature-importance-logistic-regression",
+    "title": "🏦 Predicting Bank Customer Churn",
+    "section": "🔍 Feature Importance – Logistic Regression",
+    "text": "🔍 Feature Importance – Logistic Regression\n\n\n\nThis chart displays the standardized coefficients from the Logistic Regression model, highlighting which features most influence customer churn predictions.\n\nAge and Balance are the strongest positive predictors of churn — older customers and those with higher balances are more likely to leave.\nIsActiveMember has the strongest negative coefficient, indicating active users are significantly less likely to churn.\nOther features like Geography, Estimated Salary, and Gender show smaller but still notable impacts.\n\nThese insights help the bank prioritize retention efforts around customer age, engagement, and account value."
+  },
+  {
+    "objectID": "projects/bank-churn-prediction.html#key-insights",
+    "href": "projects/bank-churn-prediction.html#key-insights",
+    "title": "🏦 Predicting Bank Customer Churn",
+    "section": "🔍 Key Insights",
+    "text": "🔍 Key Insights\n\nDemographics: Older customers are more likely to churn; geographic differences (France/Germany higher than Spain).\nBehavioral Indicators:\n\nInactive members have a 27% churn rate vs. 14% for active.\nCustomers with fewer products are more likely to churn.\n\nTop Predictive Features: Age, Number of Products, Balance, IsActiveMember."
+  },
+  {
+    "objectID": "projects/bank-churn-prediction.html#strategic-recommendations",
+    "href": "projects/bank-churn-prediction.html#strategic-recommendations",
+    "title": "🏦 Predicting Bank Customer Churn",
+    "section": "💡 Strategic Recommendations",
+    "text": "💡 Strategic Recommendations\n\nEngagement: Target inactive users and those with only 1–2 products via cross-sell campaigns.\nPersonalization: Design region-specific and age-aware outreach strategies.\nRetention: Monitor older customers and offer digital support to reduce disengagement.\nModel Use: Deploy Random Forest with SMOTE to support real-time churn alerts."
+  },
+  {
+    "objectID": "projects/bank-churn-prediction.html#conclusion",
+    "href": "projects/bank-churn-prediction.html#conclusion",
+    "title": "🏦 Predicting Bank Customer Churn",
+    "section": "🧾 Conclusion",
+    "text": "🧾 Conclusion\nThis project shows how machine learning can effectively identify churn risk using behavioral and demographic signals. With Random Forest as the most effective model, supported by SMOTE balancing, banks can proactively reduce attrition by targeting the right customers at the right time. The insights gained can guide smarter customer engagement and long-term profitability."
+  },
+  {
+    "objectID": "projects/bank-churn-prediction.html#github-repository",
+    "href": "projects/bank-churn-prediction.html#github-repository",
+    "title": "🏦 Predicting Bank Customer Churn",
+    "section": "📎 GitHub Repository",
+    "text": "📎 GitHub Repository\n👉 View Code on GitHub"
   }
 ]
