@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>yelp_analysis – My Portfolio</title>
+<title>🏦 Predicting Bank Customer Churn – My Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-cc6233b92224f1fae17ecbede1994a6f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-4eb6582ef5a24dafb2963f3a2a9c594e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -96,25 +96,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Projects</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
-        <li>
-    <a class="dropdown-item" href="../projects/suncounty.html">
- <span class="dropdown-text">Sun Country Segmentation</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../projects/project.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/yelp_analysis.html">
- <span class="dropdown-text">Yelp Analysis</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/amazon_customer_analysis.html">
- <span class="dropdown-text">Amazon Customer Analysis</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -126,17 +111,164 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">📌 Project Overview</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">🎯 Objectives</a></li>
+  <li><a href="#data-methods" id="toc-data-methods" class="nav-link" data-scroll-target="#data-methods">🗂️ Data &amp; Methods</a></li>
+  <li><a href="#model-performance-summary" id="toc-model-performance-summary" class="nav-link" data-scroll-target="#model-performance-summary">🤖 Model Performance Summary</a></li>
+  <li><a href="#feature-importance-logistic-regression" id="toc-feature-importance-logistic-regression" class="nav-link" data-scroll-target="#feature-importance-logistic-regression">🔍 Feature Importance – Logistic Regression</a></li>
+  <li><a href="#key-insights" id="toc-key-insights" class="nav-link" data-scroll-target="#key-insights">🔍 Key Insights</a></li>
+  <li><a href="#strategic-recommendations" id="toc-strategic-recommendations" class="nav-link" data-scroll-target="#strategic-recommendations">💡 Strategic Recommendations</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">🧾 Conclusion</a></li>
+  <li><a href="#github-repository" id="toc-github-repository" class="nav-link" data-scroll-target="#github-repository">📎 GitHub Repository</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">🏦 Predicting Bank Customer Churn</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">📌 Project Overview</h2>
+<p>As digital banking continues to grow, identifying and preventing customer churn—especially <em>silent attrition</em>—has become critical for banks. This project applied multiple machine learning models to predict customer churn and uncover key behavioral and demographic risk factors to enable proactive retention strategies.</p>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
+<ul>
+<li>Visualize current customer behavior and demographics</li>
+<li>Build predictive models to classify customers at risk of churn</li>
+<li>Identify actionable drivers of attrition for strategic intervention</li>
+</ul>
+</section>
+<section id="data-methods" class="level2">
+<h2 class="anchored" data-anchor-id="data-methods">🗂️ Data &amp; Methods</h2>
+<ul>
+<li><strong>Data</strong>: 10,000 records from a European bank (Kaggle)</li>
+<li><strong>Features</strong>: Age, Gender, Geography, Balance, Tenure, Products, Activity, etc.</li>
+<li><strong>Tools</strong>: Python, Scikit-learn, SMOTE, PCA</li>
+<li><strong>Models Used</strong>: Logistic Regression, Gaussian Naive Bayes, Decision Tree, Random Forest</li>
+</ul>
+</section>
+<section id="model-performance-summary" class="level2">
+<h2 class="anchored" data-anchor-id="model-performance-summary">🤖 Model Performance Summary</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 11%">
+<col style="width: 22%">
+<col style="width: 18%">
+<col style="width: 21%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Accuracy</th>
+<th>Precision (Churn)</th>
+<th>Recall (Churn)</th>
+<th>F1-Score (Churn)</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Logistic Regression</td>
+<td>80.9%</td>
+<td>60%</td>
+<td>19% → 77% (with SMOTE)</td>
+<td>29% → 77%</td>
+</tr>
+<tr class="even">
+<td>Naive Bayes</td>
+<td>78.7%</td>
+<td>36% → 70%</td>
+<td>6% → 74%</td>
+<td>11% → 72%</td>
+</tr>
+<tr class="odd">
+<td>Decision Tree</td>
+<td>85% (after pruning)</td>
+<td>80%</td>
+<td>37%</td>
+<td>51%</td>
+</tr>
+<tr class="even">
+<td>Random Forest</td>
+<td>86% → 84% (with SMOTE)</td>
+<td>76% → 58%</td>
+<td>47% → 64%</td>
+<td>58% → 61%</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p>✅ <strong>Random Forest with SMOTE</strong> achieved the best balance for identifying churners, despite a slight drop in precision.</p>
+</blockquote>
+</section>
+<section id="feature-importance-logistic-regression" class="level2">
+<h2 class="anchored" data-anchor-id="feature-importance-logistic-regression">🔍 Feature Importance – Logistic Regression</h2>
+<div style="width: 500px;">
+<p><img src="images/feature-importance.png" style="border-radius: 8px; width: 100%;"></p>
+</div>
+<p>This chart displays the standardized coefficients from the Logistic Regression model, highlighting which features most influence customer churn predictions.</p>
+<ul>
+<li><strong>Age</strong> and <strong>Balance</strong> are the strongest positive predictors of churn — older customers and those with higher balances are more likely to leave.</li>
+<li><strong>IsActiveMember</strong> has the strongest negative coefficient, indicating active users are significantly less likely to churn.</li>
+<li>Other features like <strong>Geography</strong>, <strong>Estimated Salary</strong>, and <strong>Gender</strong> show smaller but still notable impacts.</li>
+</ul>
+<p>These insights help the bank prioritize retention efforts around customer age, engagement, and account value.</p>
+</section>
+<section id="key-insights" class="level2">
+<h2 class="anchored" data-anchor-id="key-insights">🔍 Key Insights</h2>
+<ul>
+<li><strong>Demographics</strong>: Older customers are more likely to churn; geographic differences (France/Germany higher than Spain).</li>
+<li><strong>Behavioral Indicators</strong>:
+<ul>
+<li>Inactive members have a 27% churn rate vs.&nbsp;14% for active.</li>
+<li>Customers with fewer products are more likely to churn.</li>
+</ul></li>
+<li><strong>Top Predictive Features</strong>: Age, Number of Products, Balance, IsActiveMember.</li>
+</ul>
+</section>
+<section id="strategic-recommendations" class="level2">
+<h2 class="anchored" data-anchor-id="strategic-recommendations">💡 Strategic Recommendations</h2>
+<ul>
+<li><strong>Engagement</strong>: Target inactive users and those with only 1–2 products via cross-sell campaigns.</li>
+<li><strong>Personalization</strong>: Design region-specific and age-aware outreach strategies.</li>
+<li><strong>Retention</strong>: Monitor older customers and offer digital support to reduce disengagement.</li>
+<li><strong>Model Use</strong>: Deploy Random Forest with SMOTE to support real-time churn alerts.</li>
+</ul>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">🧾 Conclusion</h2>
+<p>This project shows how machine learning can effectively identify churn risk using behavioral and demographic signals. With Random Forest as the most effective model, supported by SMOTE balancing, banks can proactively reduce attrition by targeting the right customers at the right time. The insights gained can guide smarter customer engagement and long-term profitability.</p>
+</section>
+<section id="github-repository" class="level2">
+<h2 class="anchored" data-anchor-id="github-repository">📎 GitHub Repository</h2>
+<p>👉 <a href="https://github.com/your-username/bank-churn-prediction">View Code on GitHub</a></p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

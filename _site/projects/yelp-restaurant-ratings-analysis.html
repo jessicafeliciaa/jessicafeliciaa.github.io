@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Projects – My Portfolio</title>
+<title>🍽️ Yelp Restaurant Ratings Analysis – My Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-cc6233b92224f1fae17ecbede1994a6f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-4eb6582ef5a24dafb2963f3a2a9c594e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/"> 
+    <a class="nav-link" href="../projects/project.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -111,15 +111,28 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">📌 Project Overview</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">🎯 Objectives</a></li>
+  <li><a href="#data-methods" id="toc-data-methods" class="nav-link" data-scroll-target="#data-methods">🗂️ Data &amp; Methods</a></li>
+  <li><a href="#key-insights" id="toc-key-insights" class="nav-link" data-scroll-target="#key-insights">📊 Key Insights</a></li>
+  <li><a href="#model-performance" id="toc-model-performance" class="nav-link" data-scroll-target="#model-performance">🤖 Model Performance</a></li>
+  <li><a href="#business-recommendations" id="toc-business-recommendations" class="nav-link" data-scroll-target="#business-recommendations">💼 Business Recommendations</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">🧾 Conclusion</a></li>
+  <li><a href="#github-repository" id="toc-github-repository" class="nav-link" data-scroll-target="#github-repository">📎 GitHub Repository</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">🍽️ Yelp Restaurant Ratings Analysis</h1>
 </div>
 
 
@@ -136,9 +149,95 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="../workspaces/jessicafeliciaa.github.io/projects/Clustering Analysis/">Project A</a></p>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">📌 Project Overview</h2>
+<p>This project analyzes Yelp restaurant data across California to identify key drivers behind customer ratings and provide actionable insights for small restaurant owners. Using machine learning models and data visualizations, the study reveals how cuisine type, location, and customer feedback influence restaurant success.</p>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
+<ul>
+<li>Identify popular cuisines and their rating patterns</li>
+<li>Understand the impact of location and number of reviews on ratings</li>
+<li>Predict restaurant success using classification models</li>
+<li>Support small restaurant owners with data-driven strategies</li>
+</ul>
+</section>
+<section id="data-methods" class="level2">
+<h2 class="anchored" data-anchor-id="data-methods">🗂️ Data &amp; Methods</h2>
+<ul>
+<li><strong>Data Source</strong>: Yelp data scraped via Python (2,177 restaurant entries)</li>
+<li><strong>Features</strong>: Cuisine type, review count, price range, location (lat/lon), rating</li>
+<li><strong>Tools</strong>: Python, Pandas, Scikit-learn, Matplotlib</li>
+<li><strong>Models Used</strong>: Decision Tree, K-Nearest Neighbor, Random Forest</li>
+</ul>
+</section>
+<section id="key-insights" class="level2">
+<h2 class="anchored" data-anchor-id="key-insights">📊 Key Insights</h2>
+<ul>
+<li><strong>Top Cuisines</strong>: Mexican, New American, and Italian are the most popular in California</li>
+<li><strong>Mexican Cuisine</strong>: Shows wide variability in ratings, indicating inconsistent experiences</li>
+<li><strong>Location &amp; Review Count Matter</strong>: These were the most important predictors in rating performance</li>
+</ul>
+</section>
+<section id="model-performance" class="level2">
+<h2 class="anchored" data-anchor-id="model-performance">🤖 Model Performance</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Accuracy</th>
+<th>F1 Score</th>
+<th>Precision</th>
+<th>Recall</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Decision Tree</td>
+<td>61.7%</td>
+<td>0.72</td>
+<td>0.76</td>
+<td>0.69</td>
+</tr>
+<tr class="even">
+<td>KNN (Tuned)</td>
+<td>64.1%</td>
+<td>0.77</td>
+<td>0.66</td>
+<td>0.93</td>
+</tr>
+<tr class="odd">
+<td>Random Forest</td>
+<td>71.8%</td>
+<td>0.81</td>
+<td>0.74</td>
+<td>0.89</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Random Forest</strong> performed best overall, identifying high-rated restaurants effectively.</li>
+<li><strong>KNN</strong> excelled in recall, while <strong>Decision Tree</strong> had the fewest false positives.</li>
+</ul>
+</section>
+<section id="business-recommendations" class="level2">
+<h2 class="anchored" data-anchor-id="business-recommendations">💼 Business Recommendations</h2>
+<ul>
+<li><strong>Location Strategy</strong>: Choose areas with high traffic or market through social platforms to boost visibility in suburban areas.</li>
+<li><strong>Review Management</strong>: Actively solicit and respond to reviews to enhance credibility and ratings.</li>
+<li><strong>Quality Consistency</strong>: Standardize food and service quality, especially in cuisines with rating volatility like Mexican.</li>
+</ul>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">🧾 Conclusion</h2>
+<p>This project highlights how Yelp data can help small restaurants better understand customer behavior and optimize operations. By applying machine learning and analysis techniques, restaurant owners can gain strategic insights into location, cuisine impact, and review management—ultimately leading to better customer satisfaction and improved performance.</p>
+</section>
+<section id="github-repository" class="level2">
+<h2 class="anchored" data-anchor-id="github-repository">📎 GitHub Repository</h2>
+<p>👉 <a href="https://github.com/your-username/yelp-restaurant-analysis">View Code on GitHub</a></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

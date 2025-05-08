@@ -1,0 +1,58 @@
+---
+title: "🍽️ Yelp Restaurant Ratings Analysis"
+format: html
+---
+
+## 📌 Project Overview
+
+This project analyzes Yelp restaurant data across California to identify key drivers behind customer ratings and provide actionable insights for small restaurant owners. Using machine learning models and data visualizations, the study reveals how cuisine type, location, and customer feedback influence restaurant success.
+
+
+## 🎯 Objectives
+
+- Identify popular cuisines and their rating patterns
+- Understand the impact of location and number of reviews on ratings
+- Predict restaurant success using classification models
+- Support small restaurant owners with data-driven strategies
+
+
+## 🗂️ Data & Methods
+
+- **Data Source**: Yelp data scraped via Python (2,177 restaurant entries)
+- **Features**: Cuisine type, review count, price range, location (lat/lon), rating
+- **Tools**: Python, Pandas, Scikit-learn, Matplotlib
+- **Models Used**: Decision Tree, K-Nearest Neighbor, Random Forest
+
+
+## 📊 Key Insights
+
+- **Top Cuisines**: Mexican, New American, and Italian are the most popular in California
+- **Mexican Cuisine**: Shows wide variability in ratings, indicating inconsistent experiences
+- **Location & Review Count Matter**: These were the most important predictors in rating performance
+
+
+## 🤖 Model Performance
+
+| Model             | Accuracy | F1 Score | Precision | Recall |
+|------------------|----------|----------|-----------|--------|
+| Decision Tree     | 61.7%    | 0.72     | 0.76      | 0.69   |
+| KNN (Tuned)       | 64.1%    | 0.77     | 0.66      | 0.93   |
+| Random Forest     | 71.8%    | 0.81     | 0.74      | 0.89   |
+
+- **Random Forest** performed best overall, identifying high-rated restaurants effectively.
+- **KNN** excelled in recall, while **Decision Tree** had the fewest false positives.
+
+
+## 💼 Business Recommendations
+
+- **Location Strategy**: Choose areas with high traffic or market through social platforms to boost visibility in suburban areas.
+- **Review Management**: Actively solicit and respond to reviews to enhance credibility and ratings.
+- **Quality Consistency**: Standardize food and service quality, especially in cuisines with rating volatility like Mexican.
+
+## 🧾 Conclusion
+
+This project highlights how Yelp data can help small restaurants better understand customer behavior and optimize operations. By applying machine learning and analysis techniques, restaurant owners can gain strategic insights into location, cuisine impact, and review management—ultimately leading to better customer satisfaction and improved performance.
+
+## 📎 GitHub Repository
+
+👉 [View Code on GitHub](https://github.com/your-username/yelp-restaurant-analysis)

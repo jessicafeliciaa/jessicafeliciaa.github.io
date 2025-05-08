@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Sun County Airlines – Customer Segmentation – My Portfolio</title>
+<title>🛍️ Amazon Product Reviews Sentiment Analysis – My Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-cc6233b92224f1fae17ecbede1994a6f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-4eb6582ef5a24dafb2963f3a2a9c594e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -96,25 +96,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Projects</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
-        <li>
-    <a class="dropdown-item" href="../projects/suncounty.html">
- <span class="dropdown-text">Sun Country Segmentation</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../projects/project.html"> 
+<span class="menu-text">Projects</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/yelp_analysis.html">
- <span class="dropdown-text">Yelp Analysis</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../projects/amazon_customer_analysis.html">
- <span class="dropdown-text">Amazon Customer Analysis</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -131,24 +116,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#customer-segmentation-for-sun-country-airlines" id="toc-customer-segmentation-for-sun-country-airlines" class="nav-link active" data-scroll-target="#customer-segmentation-for-sun-country-airlines">✈️ Customer Segmentation for Sun Country Airlines</a>
-  <ul class="collapse">
-  <li><a href="#project-overview" id="toc-project-overview" class="nav-link" data-scroll-target="#project-overview">📌 Project Overview</a></li>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">📌 Project Overview</a></li>
   <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">🎯 Objectives</a></li>
-  <li><a href="#data-features" id="toc-data-features" class="nav-link" data-scroll-target="#data-features">🗂️ Data &amp; Features</a></li>
-  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">🔍 Methodology</a>
-  <ul class="collapse">
-  <li><a href="#tools-used" id="toc-tools-used" class="nav-link" data-scroll-target="#tools-used">🧮 Tools Used</a></li>
-  </ul></li>
-  <li><a href="#key-segments-marketing-strategies" id="toc-key-segments-marketing-strategies" class="nav-link" data-scroll-target="#key-segments-marketing-strategies">📊 Key Segments &amp; Marketing Strategies</a>
-  <ul class="collapse">
-  <li><a href="#cluster-0-middle-aged-standard-travelers" id="toc-cluster-0-middle-aged-standard-travelers" class="nav-link" data-scroll-target="#cluster-0-middle-aged-standard-travelers">Cluster 0 – <em>Middle-Aged Standard Travelers</em></a></li>
-  <li><a href="#cluster-1-spring-squad-adventurers" id="toc-cluster-1-spring-squad-adventurers" class="nav-link" data-scroll-target="#cluster-1-spring-squad-adventurers">Cluster 1 – <em>Spring Squad Adventurers</em></a></li>
-  <li><a href="#cluster-2-adventurous-young-budget-travelers" id="toc-cluster-2-adventurous-young-budget-travelers" class="nav-link" data-scroll-target="#cluster-2-adventurous-young-budget-travelers">Cluster 2 – <em>Adventurous Young Budget Travelers</em></a></li>
-  <li><a href="#cluster-3-early-minneapolis-travelers" id="toc-cluster-3-early-minneapolis-travelers" class="nav-link" data-scroll-target="#cluster-3-early-minneapolis-travelers">Cluster 3 – <em>Early Minneapolis Travelers</em></a></li>
-  <li><a href="#cluster-4-age-blend-bargain-birds" id="toc-cluster-4-age-blend-bargain-birds" class="nav-link" data-scroll-target="#cluster-4-age-blend-bargain-birds">Cluster 4 – <em>Age-Blend Bargain Birds</em></a></li>
-  </ul></li>
-  </ul></li>
+  <li><a href="#data-methods" id="toc-data-methods" class="nav-link" data-scroll-target="#data-methods">🗂️ Data &amp; Methods</a></li>
+  <li><a href="#key-insights" id="toc-key-insights" class="nav-link" data-scroll-target="#key-insights">🔍 Key Insights</a></li>
+  <li><a href="#model-performance" id="toc-model-performance" class="nav-link" data-scroll-target="#model-performance">🤖 Model Performance</a></li>
+  <li><a href="#business-impact" id="toc-business-impact" class="nav-link" data-scroll-target="#business-impact">💡 Business Impact</a></li>
+  <li><a href="#limitations-future-enhancement" id="toc-limitations-future-enhancement" class="nav-link" data-scroll-target="#limitations-future-enhancement">🔄 Limitations &amp; Future Enhancement</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">🧾 Conclusion</a></li>
+  <li><a href="#github-repository" id="toc-github-repository" class="nav-link" data-scroll-target="#github-repository">📎 GitHub Repository</a></li>
   </ul>
 </nav>
     </div>
@@ -157,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Sun County Airlines – Customer Segmentation</h1>
+<h1 class="title">🛍️ Amazon Product Reviews Sentiment Analysis</h1>
 </div>
 
 
@@ -174,107 +150,108 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="customer-segmentation-for-sun-country-airlines" class="level1">
-<h1>✈️ Customer Segmentation for Sun Country Airlines</h1>
 <section id="project-overview" class="level2">
 <h2 class="anchored" data-anchor-id="project-overview">📌 Project Overview</h2>
-<p>Sun County Airlines, a small U.S.-based carrier, faces pressure from larger competitors. To compete effectively, the company needs a deep understanding of its customers’ behavior, demographics, and travel preferences. This project uses unsupervised machine learning to segment customers into distinct groups for targeted marketing and product development.</p>
-<hr>
+<p>This project analyzes customer sentiment from Amazon product reviews using natural language processing and machine learning techniques. The goal was to understand common customer opinions, how review length correlates with sentiment and rating, and to evaluate which models best classify review sentiment.</p>
 </section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
 <ul>
-<li>Combine and clean customer datasets from Excel</li>
-<li>Identify key features relevant to customer behavior</li>
-<li>Apply clustering to uncover unique customer groups</li>
-<li>Provide insights for strategic marketing decisions</li>
+<li>Identify common themes in positive vs.&nbsp;negative reviews</li>
+<li>Examine the relationship between review length, sentiment, and product rating</li>
+<li>Evaluate classification models for sentiment prediction</li>
 </ul>
-<hr>
 </section>
-<section id="data-features" class="level2">
-<h2 class="anchored" data-anchor-id="data-features">🗂️ Data &amp; Features</h2>
-<p>We used two spreadsheets from Sun County Airlines containing customer booking and demographic data. After merging the data using Pandas in Google Colab, we selected the following variables:</p>
+<section id="data-methods" class="level2">
+<h2 class="anchored" data-anchor-id="data-methods">🗂️ Data &amp; Methods</h2>
 <ul>
-<li>Birthdate (Age)</li>
-<li>Booking Class &amp; Channel</li>
-<li>Base Fare Paid</li>
-<li>Membership Status</li>
-<li>Product Type</li>
-<li>Route Details</li>
-<li>Group Size</li>
-<li>Booking Lead Time (days_pre_booked)</li>
-<li>Seasonality Habits</li>
+<li><strong>Data</strong>: Amazon review dataset (1,465 reviews, 16 variables) from Kaggle<br>
+</li>
+<li><strong>Text Preprocessing</strong>: Lowercasing, punctuation removal, stopword removal, tokenization<br>
+</li>
+<li><strong>Feature Engineering</strong>: TF-IDF with n-grams<br>
+</li>
+<li><strong>Sentiment Labeling</strong>: VADER lexicon to classify sentiment as Positive, Neutral, or Negative<br>
+</li>
+<li><strong>Models Used</strong>: Logistic Regression, Random Forest, Support Vector Machine (SVM)</li>
 </ul>
-<hr>
 </section>
-<section id="methodology" class="level2">
-<h2 class="anchored" data-anchor-id="methodology">🔍 Methodology</h2>
-<p>We used <strong>K-means clustering</strong> after standardizing numerical features and encoding categorical ones. The <strong>Elbow method</strong> suggested that <strong>k = 5</strong> was optimal.</p>
-<section id="tools-used" class="level3">
-<h3 class="anchored" data-anchor-id="tools-used">🧮 Tools Used</h3>
+<section id="key-insights" class="level2">
+<h2 class="anchored" data-anchor-id="key-insights">🔍 Key Insights</h2>
 <ul>
-<li>Python (Pandas, Scikit-learn)</li>
-<li>Google Colab</li>
-<li>Matplotlib &amp; Seaborn</li>
-<li>Excel (raw input files)</li>
+<li><strong>Strong Positive Bias</strong>: Majority of reviews were classified as positive; neutral and negative reviews were underrepresented.</li>
+<li><strong>Review Length Matters</strong>: Longer reviews were slightly more likely to be positive, but the correlation was weak.</li>
+<li><strong>Themes</strong>:
+<ul>
+<li>Positive: “value for money,” “sound quality,” “lightweight”</li>
+<li>Negative: “poor quality,” “charging cable,” “don’t buy”</li>
+</ul></li>
 </ul>
-<hr>
 </section>
+<section id="model-performance" class="level2">
+<h2 class="anchored" data-anchor-id="model-performance">🤖 Model Performance</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 9%">
+<col style="width: 36%">
+<col style="width: 34%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Accuracy</th>
+<th>Strengths</th>
+<th>Weaknesses</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Logistic Regression</td>
+<td>92%</td>
+<td>High recall for positive reviews</td>
+<td>Poor detection of neutral/negative</td>
+</tr>
+<tr class="even">
+<td>Random Forest</td>
+<td>91%</td>
+<td>Robust with positive sentiment</td>
+<td>Weak on negative (recall: 0.06)</td>
+</tr>
+<tr class="odd">
+<td>SVM</td>
+<td>92%</td>
+<td>Balanced and strong on positives</td>
+<td>Misclassified most negatives/neutral</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="key-segments-marketing-strategies" class="level2">
-<h2 class="anchored" data-anchor-id="key-segments-marketing-strategies">📊 Key Segments &amp; Marketing Strategies</h2>
-<section id="cluster-0-middle-aged-standard-travelers" class="level3">
-<h3 class="anchored" data-anchor-id="cluster-0-middle-aged-standard-travelers">Cluster 0 – <em>Middle-Aged Standard Travelers</em></h3>
-Most frequently fly solo or in pairs, book standard class, and fly year-round.
-<div style="width: 700px;">
-<p><img src="images/cluster-0.png" style="border-radius: 8px; width: 100%;"></p>
-</div>
-<section id="marketing-strategies" class="level4">
-<h4 class="anchored" data-anchor-id="marketing-strategies">📖 Marketing Strategies:</h4>
-<p>• Boost Visibility on Travel Platforms: Partner with OTAs and meta-search engines (e.g., Expedia, Skyscanner) to secure premium listings and improve flight discoverability.</p>
-<p>• Manage Reviews Proactively: Encourage satisfied customers to leave reviews and respond to feedback to build trust and reputation.</p>
-<p>• Offer Destination Bundles: Create travel packages for popular routes (e.g., BOS, DFW, LAX) by bundling flights with hotels or car rentals to attract deal-seeking travelers.</p>
+<section id="business-impact" class="level2">
+<h2 class="anchored" data-anchor-id="business-impact">💡 Business Impact</h2>
+<ul>
+<li><strong>Product Improvement</strong>: Frequent negative terms flagged areas for design or quality fixes.</li>
+<li><strong>Marketing</strong>: Highlighted strengths (e.g., sound quality) can inform ad copy and product positioning.</li>
+<li><strong>Customer Engagement</strong>: Long, detailed reviews suggest satisfaction; prompting longer feedback could yield richer insights.</li>
+</ul>
 </section>
+<section id="limitations-future-enhancement" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-future-enhancement">🔄 Limitations &amp; Future Enhancement</h2>
+<ul>
+<li>Imbalanced dataset (mostly positive reviews) biased model performance</li>
+<li>Models underperformed on neutral and negative reviews</li>
+<li>Future improvements: class balancing, hyperparameter tuning, and deep learning approaches</li>
+</ul>
 </section>
-<section id="cluster-1-spring-squad-adventurers" class="level3">
-<h3 class="anchored" data-anchor-id="cluster-1-spring-squad-adventurers">Cluster 1 – <em>Spring Squad Adventurers</em></h3>
-Group travelers, often younger, travel mainly during spring with discounted fares.
-<div style="width: 250px;">
-<p><img src="images/cluster-1.png" style="border-radius: 8px; width: 100%;"></p>
-</div>
-<section id="marketing-strategies-1" class="level4">
-<h4 class="anchored" data-anchor-id="marketing-strategies-1">📖 Marketing Strategies:</h4>
-<p>• <strong>Promote Spring Travel Deals:</strong> Offer group discounts, family packages, and senior travel incentives to appeal to larger group travelers.</p>
-<p>• <strong>Bundle Group Packages:</strong> Partner with tour providers for all-inclusive deals that combine flights, hotels, and activities, optimized for multi-passenger bookings.</p>
-<p>• <strong>Highlight Senior-Friendly Services:</strong> Emphasize amenities like priority boarding, wheelchair assistance, and personalized service.</p>
-<p>• <strong>Drive Ufly Program Adoption:</strong> Incentivize loyalty signups with group booking bonuses, Q1 travel discounts, and senior-exclusive perks.</p>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">🧾 Conclusion</h2>
+<p>This project demonstrated how sentiment analysis can uncover key customer insights from product reviews. Despite model limitations with neutral and negative classification, positive feedback was effectively captured. Further model tuning and data balancing could enhance accuracy across all sentiment categories, supporting more informed business decisions.</p>
 </section>
-</section>
-<section id="cluster-2-adventurous-young-budget-travelers" class="level3">
-<h3 class="anchored" data-anchor-id="cluster-2-adventurous-young-budget-travelers">Cluster 2 – <em>Adventurous Young Budget Travelers</em></h3>
-Youngest cluster, budget-conscious, often use mobile booking channels.
-<div style="width: 300px;">
-<p><img src="images/cluster-2.png" style="border-radius: 8px; width: 100%;"></p>
-</div>
-</section>
-<section id="cluster-3-early-minneapolis-travelers" class="level3">
-<h3 class="anchored" data-anchor-id="cluster-3-early-minneapolis-travelers">Cluster 3 – <em>Early Minneapolis Travelers</em></h3>
-Frequent early months flights, loyal customers from Minneapolis hub.
-<div style="width: 500px;">
-<p><img src="images/cluster-3.png" style="border-radius: 8px; width: 100%;"></p>
-</div>
-</section>
-<section id="cluster-4-age-blend-bargain-birds" class="level3">
-<h3 class="anchored" data-anchor-id="cluster-4-age-blend-bargain-birds">Cluster 4 – <em>Age-Blend Bargain Birds</em></h3>
-Wide age range, price-driven, high sensitivity to sales and promotions.
-<div style="width: 500px;">
-<p><img src="images/cluster-4.png" style="border-radius: 8px; width: 100%;"></p>
-</div>
-<hr>
+<section id="github-repository" class="level2">
+<h2 class="anchored" data-anchor-id="github-repository">📎 GitHub Repository</h2>
+<p>👉 <a href="https://github.com/your-username/amazon-review-sentiment">View Code on GitHub</a></p>
 
 
-</section>
-</section>
 </section>
 
 </main> <!-- /main -->

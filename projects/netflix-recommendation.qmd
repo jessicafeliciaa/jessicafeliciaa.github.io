@@ -1,0 +1,93 @@
+---
+title: "🎬 Netflix Recommendation System & Chatbot"
+format: html
+---
+
+## 📌 Project Overview
+
+This project combines Natural Language Processing (NLP), content clustering, and chatbot integration to create a personalized movie and TV show recommendation system using a dataset of Netflix titles. The goal was to improve content discoverability by grouping shows based on themes and responding to user preferences through an interactive chatbot interface.
+
+
+## 🎯 Objectives
+
+- Build a content-based recommendation system using NLP techniques.
+- Extract core themes and patterns from Netflix descriptions using tokenization and TF-IDF.
+- Implement unsupervised clustering to group similar content.
+- Deploy a chatbot that responds to user inputs and delivers tailored suggestions.
+- Evaluate genre prediction and chatbot relevance using both quantitative and qualitative feedback.
+
+
+## 🧹 Data Preprocessing & NLP Techniques
+
+- **Missing Values**: Dataset was complete with no missing fields.
+- **Age Classification**: Converted age ratings into numeric values for content filtering.
+- **Tokenization & Lemmatization**: Applied NLTK to clean and standardize text descriptions.
+- **TF-IDF Vectorization**: Extracted key terms and themes from descriptions for clustering and recommendations.
+
+
+## 🧠 Clustering Insights
+
+Used K-means clustering to group titles into 6 thematic categories:
+
+| Cluster | Theme | Examples |
+|--------|-------|----------|
+| 1 | Big City Life & Personal Discovery | *Blood & Water, Ganglands* |
+| 2 | Love & Life Journeys | *Midnight Mass, Je Suis Karl* |
+| 3 | Coming-of-Age | *Kota Factory, Dhanak* |
+| 4 | Music & Art | *Nailed It!, Rhyme & Reason* |
+| 5 | Connection & Discovery | *Sankofa, Great British Baking Show* |
+| 6 | Documentaries & Real-Life Stories | *Dick Johnson Is Dead, Intrusion* |
+
+
+## 🤖 Recommendation System
+
+The system processes user inputs like genre, actor, type, sentiment, and keywords to generate TF-IDF-based vectors. It then calculates cosine similarity scores and ranks top 5 content matches.
+
+**Example Input**:  
+Genre: Comedy | Actor: Tom | Sentiment: funny | Keyword: vacation  
+**Top Match**: *Jim Gaffigan: Cinco* (similarity score: 0.253)
+
+<div style="width: 400px;">
+  <img src="images/netflix-result.png" style="border-radius: 8px; width: 100%;">
+</div>
+
+
+## 💬 Chatbot Integration
+
+A chatbot interface was developed to make recommendations conversational and intuitive. It:
+
+- Accepts free-text user inputs
+- Parses for preferences (e.g., actor, genre, tone)
+- Returns top-matching Netflix titles with similarity scores
+
+> Example: The chatbot asks for your favorite actor (*Ama Qamata*) and genre (*Comedy*), then returns matching stand-up specials and light-hearted shows.
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
+  <div style="flex: 1; min-width: 250px;">
+    <img src="images/chatbot-1.jpeg" style="width: 100%; border-radius: 8px;">
+  </div>
+  <div style="flex: 1; min-width: 250px;">
+    <img src="images/chatbot-2.jpeg" style="width: 100%; border-radius: 8px;">
+  </div>
+</div>
+
+
+## 🧾 Conclusion
+
+This project demonstrates how NLP and conversational AI can enhance media recommendations. Through clustering, tokenization, and cosine similarity, we created a dynamic, personalized content discovery experience. The chatbot allows users to interact naturally, making movie and TV recommendations feel more human and tailored.
+
+## ⚠️ Limitations
+
+While the system provides personalized recommendations and interactive chatbot responses, there are a few limitations:
+
+- **Multi-label Genre Complexity**: Many titles belong to multiple genres, making it difficult for models to predict accurately from tokenized descriptions alone.
+- **Text Ambiguity**: Descriptions often contain vague or overlapping themes, reducing classification precision.
+- **Model Performance**: Genre classification models (e.g., Logistic Regression, Naive Bayes) yielded relatively low F1 scores, indicating room for improvement in multi-label learning.
+- **User Input Limitations**: The chatbot depends on structured inputs (e.g., genre, sentiment), and may struggle with ambiguous or unrelated queries.
+- **Cold Start Problem**: The system does not incorporate real-time user behavior or preferences, limiting adaptability for new users.
+
+Future enhancements could include deep learning models, multi-label classification improvements, and feedback-based recommendation tuning.
+
+
+## 📎 GitHub Repository
+
+👉 [View Code on GitHub](https://github.com/your-username/netflix-recommendation)

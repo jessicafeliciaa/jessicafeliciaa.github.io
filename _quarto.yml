@@ -10,14 +10,19 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - text: Projects
+      - href : projects/project.qmd
+        text: Projects
         menu:
-          - href: projects/suncounty.qmd
-            text: Sun Country Segmentation
-          - href: projects/yelp_analysis.qmd
+          - href: projects/suncounty-customer-segmentation.qmd
+            text: Sun Country Segmentation Analysis
+          - href: projects/yelp-restaurant-ratings-analysis.qmd
             text: Yelp Analysis
-          - href: projects/amazon_customer_analysis.qmd
-            text: Amazon Customer Analysis
+          - href: projects/amazon-product-analysis.qmd
+            text: Amazon Product Reviews Sentiment Analysis
+          - href: projects/bank-churn-prediction.qmd
+            text: Bank Churn Prediction
+          - href: projects/netflix-recommendation.qmd
+            text: Netflix Recommendation System
 
 format:
   html:

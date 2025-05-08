@@ -1,0 +1,64 @@
+---
+title: "🛍️ Amazon Product Reviews Sentiment Analysis"
+format: html
+---
+
+## 📌 Project Overview
+
+This project analyzes customer sentiment from Amazon product reviews using natural language processing and machine learning techniques. The goal was to understand common customer opinions, how review length correlates with sentiment and rating, and to evaluate which models best classify review sentiment.
+
+
+## 🎯 Objectives
+
+- Identify common themes in positive vs. negative reviews
+- Examine the relationship between review length, sentiment, and product rating
+- Evaluate classification models for sentiment prediction
+
+
+## 🗂️ Data & Methods
+
+- **Data**: Amazon review dataset (1,465 reviews, 16 variables) from Kaggle  
+- **Text Preprocessing**: Lowercasing, punctuation removal, stopword removal, tokenization  
+- **Feature Engineering**: TF-IDF with n-grams  
+- **Sentiment Labeling**: VADER lexicon to classify sentiment as Positive, Neutral, or Negative  
+- **Models Used**: Logistic Regression, Random Forest, Support Vector Machine (SVM)
+
+
+## 🔍 Key Insights
+
+- **Strong Positive Bias**: Majority of reviews were classified as positive; neutral and negative reviews were underrepresented.
+- **Review Length Matters**: Longer reviews were slightly more likely to be positive, but the correlation was weak.
+- **Themes**:
+  - Positive: “value for money,” “sound quality,” “lightweight”
+  - Negative: “poor quality,” “charging cable,” “don’t buy”
+
+
+## 🤖 Model Performance
+
+| Model               | Accuracy | Strengths                             | Weaknesses                         |
+|---------------------|----------|---------------------------------------|-------------------------------------|
+| Logistic Regression | 92%      | High recall for positive reviews      | Poor detection of neutral/negative |
+| Random Forest       | 91%      | Robust with positive sentiment        | Weak on negative (recall: 0.06)    |
+| SVM                 | 92%      | Balanced and strong on positives      | Misclassified most negatives/neutral|
+
+
+## 💡 Business Impact
+
+- **Product Improvement**: Frequent negative terms flagged areas for design or quality fixes.
+- **Marketing**: Highlighted strengths (e.g., sound quality) can inform ad copy and product positioning.
+- **Customer Engagement**: Long, detailed reviews suggest satisfaction; prompting longer feedback could yield richer insights.
+
+
+## 🔄 Limitations & Future Enhancement
+
+- Imbalanced dataset (mostly positive reviews) biased model performance
+- Models underperformed on neutral and negative reviews
+- Future improvements: class balancing, hyperparameter tuning, and deep learning approaches
+
+## 🧾 Conclusion
+
+This project demonstrated how sentiment analysis can uncover key customer insights from product reviews. Despite model limitations with neutral and negative classification, positive feedback was effectively captured. Further model tuning and data balancing could enhance accuracy across all sentiment categories, supporting more informed business decisions.
+
+## 📎 GitHub Repository
+
+👉 [View Code on GitHub](https://github.com/your-username/amazon-review-sentiment)
