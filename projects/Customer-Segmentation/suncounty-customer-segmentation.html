@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>🎬 Netflix Recommendation System &amp; Chatbot – My Portfolio</title>
+<title>✈️ Customer Segmentation for Sun Country Airlines – My Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-4eb6582ef5a24dafb2963f3a2a9c594e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-4eb6582ef5a24dafb2963f3a2a9c594e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">My Portfolio</span>
     </a>
   </div>
@@ -89,15 +89,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../projects/project.html"> 
+    <a class="nav-link" href="../../projects/project.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -118,12 +118,21 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">📌 Project Overview</a></li>
   <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">🎯 Objectives</a></li>
-  <li><a href="#data-preprocessing-nlp-techniques" id="toc-data-preprocessing-nlp-techniques" class="nav-link" data-scroll-target="#data-preprocessing-nlp-techniques">🧹 Data Preprocessing &amp; NLP Techniques</a></li>
-  <li><a href="#clustering-insights" id="toc-clustering-insights" class="nav-link" data-scroll-target="#clustering-insights">🧠 Clustering Insights</a></li>
-  <li><a href="#recommendation-system" id="toc-recommendation-system" class="nav-link" data-scroll-target="#recommendation-system">🤖 Recommendation System</a></li>
-  <li><a href="#chatbot-integration" id="toc-chatbot-integration" class="nav-link" data-scroll-target="#chatbot-integration">💬 Chatbot Integration</a></li>
+  <li><a href="#data-features" id="toc-data-features" class="nav-link" data-scroll-target="#data-features">🗂️ Data &amp; Features</a></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">🔍 Methodology</a>
+  <ul class="collapse">
+  <li><a href="#tools-used" id="toc-tools-used" class="nav-link" data-scroll-target="#tools-used">🧮 Tools Used</a></li>
+  </ul></li>
+  <li><a href="#key-segments-marketing-strategies" id="toc-key-segments-marketing-strategies" class="nav-link" data-scroll-target="#key-segments-marketing-strategies">📊 Key Segments &amp; Marketing Strategies</a>
+  <ul class="collapse">
+  <li><a href="#cluster-0-middle-aged-standard-travelers" id="toc-cluster-0-middle-aged-standard-travelers" class="nav-link" data-scroll-target="#cluster-0-middle-aged-standard-travelers">Cluster 0 – <em>Middle-Aged Standard Travelers</em></a></li>
+  <li><a href="#cluster-1-spring-squad-adventurers" id="toc-cluster-1-spring-squad-adventurers" class="nav-link" data-scroll-target="#cluster-1-spring-squad-adventurers">Cluster 1 – <em>Spring Squad Adventurers</em></a></li>
+  <li><a href="#cluster-2-adventurous-young-budget-travelers" id="toc-cluster-2-adventurous-young-budget-travelers" class="nav-link" data-scroll-target="#cluster-2-adventurous-young-budget-travelers">Cluster 2 – <em>Adventurous Young Budget Travelers</em></a></li>
+  <li><a href="#cluster-3-early-minneapolis-travelers" id="toc-cluster-3-early-minneapolis-travelers" class="nav-link" data-scroll-target="#cluster-3-early-minneapolis-travelers">Cluster 3 – <em>Early Minneapolis Travelers</em></a></li>
+  <li><a href="#cluster-4-age-blend-bargain-birds" id="toc-cluster-4-age-blend-bargain-birds" class="nav-link" data-scroll-target="#cluster-4-age-blend-bargain-birds">Cluster 4 – <em>Age-Blend Bargain Birds</em></a></li>
+  </ul></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">🧾 Conclusion</a></li>
-  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations">⚠️ Limitations</a></li>
+  <li><a href="#future-enhancements" id="toc-future-enhancements" class="nav-link" data-scroll-target="#future-enhancements">🔄 Future Enhancements</a></li>
   <li><a href="#github-repository" id="toc-github-repository" class="nav-link" data-scroll-target="#github-repository">📎 GitHub Repository</a></li>
   </ul>
 </nav>
@@ -133,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">🎬 Netflix Recommendation System &amp; Chatbot</h1>
+<h1 class="title">✈️ Customer Segmentation for Sun Country Airlines</h1>
 </div>
 
 
@@ -152,126 +161,135 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="project-overview" class="level2">
 <h2 class="anchored" data-anchor-id="project-overview">📌 Project Overview</h2>
-<p>This project combines Natural Language Processing (NLP), content clustering, and chatbot integration to create a personalized movie and TV show recommendation system using a dataset of Netflix titles. The goal was to improve content discoverability by grouping shows based on themes and responding to user preferences through an interactive chatbot interface.</p>
+<p>Sun County Airlines, a small U.S.-based carrier, faces pressure from larger competitors. To compete effectively, the company needs a deep understanding of its customers’ behavior, demographics, and travel preferences. This project uses unsupervised machine learning to segment customers into distinct groups for targeted marketing and product development.</p>
 </section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
 <ul>
-<li>Build a content-based recommendation system using NLP techniques.</li>
-<li>Extract core themes and patterns from Netflix descriptions using tokenization and TF-IDF.</li>
-<li>Implement unsupervised clustering to group similar content.</li>
-<li>Deploy a chatbot that responds to user inputs and delivers tailored suggestions.</li>
-<li>Evaluate genre prediction and chatbot relevance using both quantitative and qualitative feedback.</li>
+<li>Combine and clean customer datasets from Excel</li>
+<li>Identify key features relevant to customer behavior</li>
+<li>Apply KMeans Clustering to uncover unique customer groups</li>
+<li>Provide insights for strategic marketing decisions</li>
 </ul>
 </section>
-<section id="data-preprocessing-nlp-techniques" class="level2">
-<h2 class="anchored" data-anchor-id="data-preprocessing-nlp-techniques">🧹 Data Preprocessing &amp; NLP Techniques</h2>
+<section id="data-features" class="level2">
+<h2 class="anchored" data-anchor-id="data-features">🗂️ Data &amp; Features</h2>
+<p>We used two spreadsheets from Sun County Airlines containing customer booking and demographic data. After merging the data using Pandas in Google Colab, we selected the following variables:</p>
 <ul>
-<li><strong>Missing Values</strong>: Dataset was complete with no missing fields.</li>
-<li><strong>Age Classification</strong>: Converted age ratings into numeric values for content filtering.</li>
-<li><strong>Tokenization &amp; Lemmatization</strong>: Applied NLTK to clean and standardize text descriptions.</li>
-<li><strong>TF-IDF Vectorization</strong>: Extracted key terms and themes from descriptions for clustering and recommendations.</li>
+<li>Birthdate (Age)</li>
+<li>Booking Class &amp; Channel</li>
+<li>Base Fare Paid</li>
+<li>Membership Status</li>
+<li>Product Type</li>
+<li>Route Details</li>
+<li>Group Size</li>
+<li>Booking Lead Time (days_pre_booked)</li>
+<li>Seasonality Habits</li>
 </ul>
 </section>
-<section id="clustering-insights" class="level2">
-<h2 class="anchored" data-anchor-id="clustering-insights">🧠 Clustering Insights</h2>
-<p>Used K-means clustering to group titles into 6 thematic categories:</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 32%">
-<col style="width: 28%">
-<col style="width: 40%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Cluster</th>
-<th>Theme</th>
-<th>Examples</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Big City Life &amp; Personal Discovery</td>
-<td><em>Blood &amp; Water, Ganglands</em></td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Love &amp; Life Journeys</td>
-<td><em>Midnight Mass, Je Suis Karl</em></td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>Coming-of-Age</td>
-<td><em>Kota Factory, Dhanak</em></td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Music &amp; Art</td>
-<td><em>Nailed It!, Rhyme &amp; Reason</em></td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Connection &amp; Discovery</td>
-<td><em>Sankofa, Great British Baking Show</em></td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>Documentaries &amp; Real-Life Stories</td>
-<td><em>Dick Johnson Is Dead, Intrusion</em></td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="recommendation-system" class="level2">
-<h2 class="anchored" data-anchor-id="recommendation-system">🤖 Recommendation System</h2>
-<p>The system processes user inputs like genre, actor, type, sentiment, and keywords to generate TF-IDF-based vectors. It then calculates cosine similarity scores and ranks top 5 content matches.</p>
-<p><strong>Example Input</strong>:<br>
-Genre: Comedy | Actor: Tom | Sentiment: funny | Keyword: vacation<br>
-<strong>Top Match</strong>: <em>Jim Gaffigan: Cinco</em> (similarity score: 0.253)</p>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">🔍 Methodology</h2>
+We used <strong>K-means clustering</strong> after standardizing numerical features and encoding categorical ones. The <strong>Elbow method</strong> suggested that <strong>k = 5</strong> was optimal.
 <div style="width: 400px;">
-<p><img src="images/netflix-result.png" style="border-radius: 8px; width: 100%;"></p>
+<p><img src="images/elbow-method.png" style="border-radius: 8px; width: 100%;"></p>
 </div>
-</section>
-<section id="chatbot-integration" class="level2">
-<h2 class="anchored" data-anchor-id="chatbot-integration">💬 Chatbot Integration</h2>
-<p>A chatbot interface was developed to make recommendations conversational and intuitive. It:</p>
+<section id="tools-used" class="level3">
+<h3 class="anchored" data-anchor-id="tools-used">🧮 Tools Used</h3>
 <ul>
-<li>Accepts free-text user inputs</li>
-<li>Parses for preferences (e.g., actor, genre, tone)</li>
-<li>Returns top-matching Netflix titles with similarity scores</li>
+<li>Python (Pandas, Scikit-learn)</li>
+<li>Google Colab</li>
+<li>Matplotlib &amp; Seaborn</li>
+<li>Excel (raw input files)</li>
 </ul>
-<blockquote class="blockquote">
-Example: The chatbot asks for your favorite actor (<em>Ama Qamata</em>) and genre (<em>Comedy</em>), then returns matching stand-up specials and light-hearted shows.
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-<div style="flex: 1; min-width: 250px;">
-<p><img src="images/chatbot-1.jpeg" style="width: 100%; border-radius: 8px;"></p>
+</section>
+</section>
+<section id="key-segments-marketing-strategies" class="level2">
+<h2 class="anchored" data-anchor-id="key-segments-marketing-strategies">📊 Key Segments &amp; Marketing Strategies</h2>
+<section id="cluster-0-middle-aged-standard-travelers" class="level3">
+<h3 class="anchored" data-anchor-id="cluster-0-middle-aged-standard-travelers">Cluster 0 – <em>Middle-Aged Standard Travelers</em></h3>
+Most frequently fly solo or in pairs, book standard class, and fly year-round.
+<div style="width: 400px;">
+<p><img src="images/cluster-0.png" style="border-radius: 8px; width: 100%;"></p>
 </div>
-<div style="flex: 1; min-width: 250px;">
-<p><img src="images/chatbot-2.jpeg" style="width: 100%; border-radius: 8px;"></p>
+<section id="marketing-strategies" class="level4">
+<h4 class="anchored" data-anchor-id="marketing-strategies">💸 Marketing Strategies:</h4>
+<p>• <strong>Boost Visibility on Travel Platforms:</strong> Partner with OTAs and meta-search engines (e.g., Expedia, Skyscanner) to secure premium listings and improve flight discoverability.</p>
+<p>• <strong>Manage Reviews Proactively:</strong> Encourage satisfied customers to leave reviews and respond to feedback to build trust and reputation.</p>
+<p>• <strong>Offer Destination Bundles:</strong> Create travel packages for popular routes (e.g., BOS, DFW, LAX) by bundling flights with hotels or car rentals to attract deal-seeking travelers.</p>
+</section>
+</section>
+<section id="cluster-1-spring-squad-adventurers" class="level3">
+<h3 class="anchored" data-anchor-id="cluster-1-spring-squad-adventurers">Cluster 1 – <em>Spring Squad Adventurers</em></h3>
+Group travelers, often younger, travel mainly during spring with discounted fares.
+<div style="width: 250px;">
+<p><img src="images/cluster-1.png" style="border-radius: 8px; width: 100%;"></p>
 </div>
+<section id="marketing-strategies-1" class="level4">
+<h4 class="anchored" data-anchor-id="marketing-strategies-1">💸 Marketing Strategies:</h4>
+<p>• <strong>Promote Spring Travel Deals:</strong> Offer group discounts, family packages, and senior travel incentives to appeal to larger group travelers.</p>
+<p>• <strong>Bundle Group Packages:</strong> Partner with tour providers for all-inclusive deals that combine flights, hotels, and activities, optimized for multi-passenger bookings.</p>
+<p>• <strong>Highlight Senior-Friendly Services:</strong> Emphasize amenities like priority boarding, wheelchair assistance, and personalized service.</p>
+<p>• <strong>Drive Ufly Program Adoption:</strong> Incentivize loyalty signups with group booking bonuses, Q1 travel discounts, and senior-exclusive perks.</p>
+</section>
+</section>
+<section id="cluster-2-adventurous-young-budget-travelers" class="level3">
+<h3 class="anchored" data-anchor-id="cluster-2-adventurous-young-budget-travelers">Cluster 2 – <em>Adventurous Young Budget Travelers</em></h3>
+Youngest cluster, budget-conscious, often use mobile booking channels.
+<div style="width: 300px;">
+<p><img src="images/cluster-2.png" style="border-radius: 8px; width: 100%;"></p>
 </div>
-</blockquote>
+<section id="marketing-strategies-2" class="level4">
+<h4 class="anchored" data-anchor-id="marketing-strategies-2">💸 Marketing Strategies:</h4>
+<p>• <strong>Emphasize Comfort &amp; Loyalty Benefits:</strong> Promote premium features like extra legroom, priority boarding, and UFly bonus points to appeal to their comfort-seeking preferences.</p>
+<p>• <strong>Encourage Early Bookings:</strong> Launch Q4 campaigns like “Fly Home for the Holidays” with early-bird discounts and flexible booking options to match their organized travel habits.</p>
+</section>
+</section>
+<section id="cluster-3-early-minneapolis-travelers" class="level3">
+<h3 class="anchored" data-anchor-id="cluster-3-early-minneapolis-travelers">Cluster 3 – <em>Early Minneapolis Travelers</em></h3>
+Frequent early months flights, loyal customers from Minneapolis hub.
+<div style="width: 500px;">
+<p><img src="images/cluster-3.png" style="border-radius: 8px; width: 100%;"></p>
+</div>
+<section id="marketing-strategies-3" class="level4">
+<h4 class="anchored" data-anchor-id="marketing-strategies-3">💸 Marketing Strategies:</h4>
+<p>• <strong>Time Campaigns Around Booking Habits:</strong> Launch promotions in early October and late December to align with their 61-day pre-booking window and holiday shopping season.</p>
+<p>• <strong>Seasonal Messaging:</strong> Use timely slogans like “Fly into the new year with this great offer!” to boost early-year travel bookings.</p>
+<p>• <strong>Reward MSP Loyalty:</strong> Offer exclusive perks such as lounge access, Wi-Fi, or local discounts to retain Minneapolis-based flyers.</p>
+</section>
+</section>
+<section id="cluster-4-age-blend-bargain-birds" class="level3">
+<h3 class="anchored" data-anchor-id="cluster-4-age-blend-bargain-birds">Cluster 4 – <em>Age-Blend Bargain Birds</em></h3>
+Wide age range, price-driven, high sensitivity to sales and promotions.
+<div style="width: 500px;">
+<p><img src="images/cluster-4.png" style="border-radius: 8px; width: 100%;"></p>
+</div>
+<section id="marketing-strategies-4" class="level4">
+<h4 class="anchored" data-anchor-id="marketing-strategies-4">💸 Marketing Strategies:</h4>
+<p>• <strong>Highlight Affordability:</strong> Emphasize budget-friendly travel, value-for-money bundles, and exclusive online deals to attract this cost-conscious, age-diverse group.</p>
+<p>• <strong>Inclusive Messaging:</strong> Use language that resonates with all age groups, focusing on the benefits of early planning and direct booking.</p>
+<p>• <strong>Offer Age-Based &amp; Bundle Discounts:</strong> Promote senior savings, youth specials, and flight + accommodation/car rental bundles to increase appeal and direct engagement on the SCA website.</p>
+</section>
+</section>
 </section>
 <section id="conclusion" class="level2">
 <h2 class="anchored" data-anchor-id="conclusion">🧾 Conclusion</h2>
-<p>This project demonstrates how NLP and conversational AI can enhance media recommendations. Through clustering, tokenization, and cosine similarity, we created a dynamic, personalized content discovery experience. The chatbot allows users to interact naturally, making movie and TV recommendations feel more human and tailored.</p>
+<p>Through the application of K-means clustering, we successfully identified five distinct customer segments for Sun Country Airlines. These clusters revealed meaningful patterns in booking behavior, travel timing, group sizes, and fare preferences. By segmenting customers in this way, the airline can personalize its marketing efforts, develop more tailored promotions, and optimize resource allocation for customer engagement.</p>
+<p>This segmentation lays the groundwork for targeted marketing strategies, such as offering mobile booking incentives for younger travelers or loyalty perks for high-value solo fliers.</p>
+<p>The process also demonstrated the power of combining raw Excel data with Python-based clustering and visualization tools to drive business insight. With scalable implementation, this approach could become part of a broader customer intelligence system at Sun Country.</p>
 </section>
-<section id="limitations" class="level2">
-<h2 class="anchored" data-anchor-id="limitations">⚠️ Limitations</h2>
-<p>While the system provides personalized recommendations and interactive chatbot responses, there are a few limitations:</p>
+<section id="future-enhancements" class="level2">
+<h2 class="anchored" data-anchor-id="future-enhancements">🔄 Future Enhancements</h2>
 <ul>
-<li><strong>Multi-label Genre Complexity</strong>: Many titles belong to multiple genres, making it difficult for models to predict accurately from tokenized descriptions alone.</li>
-<li><strong>Text Ambiguity</strong>: Descriptions often contain vague or overlapping themes, reducing classification precision.</li>
-<li><strong>Model Performance</strong>: Genre classification models (e.g., Logistic Regression, Naive Bayes) yielded relatively low F1 scores, indicating room for improvement in multi-label learning.</li>
-<li><strong>User Input Limitations</strong>: The chatbot depends on structured inputs (e.g., genre, sentiment), and may struggle with ambiguous or unrelated queries.</li>
-<li><strong>Cold Start Problem</strong>: The system does not incorporate real-time user behavior or preferences, limiting adaptability for new users.</li>
+<li>Incorporate additional behavioral data such as frequency of bookings and flight satisfaction</li>
+<li>Explore supervised models for predicting customer loyalty or churn</li>
+<li>Build a dashboard (Tableau or Streamlit) for real-time cluster monitoring</li>
 </ul>
-<p>Future enhancements could include deep learning models, multi-label classification improvements, and feedback-based recommendation tuning.</p>
+<hr>
+<p><strong>Team Member:</strong> Made Jessica Felicia, Fabián Cruz-Ruiz, Yi-En Ivy Liu, Grace Kim, Chieh-Yi Chou</p>
 </section>
 <section id="github-repository" class="level2">
 <h2 class="anchored" data-anchor-id="github-repository">📎 GitHub Repository</h2>
-<p>👉 <a href="https://github.com/your-username/netflix-recommendation">View Code on GitHub</a></p>
+<p>👉 <a href="https://github.com/jessicafeliciaa/jessicafeliciaa.github.io/blob/main/projects/Customer-Segmentation/Clustering%20Project.ipynb">View Code on GitHub</a></p>
 
 
 </section>
