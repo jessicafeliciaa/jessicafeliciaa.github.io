@@ -13,7 +13,7 @@ website:
       - href : projects/project.qmd
         text: Projects
         menu:
-          - href: projects/suncounty-customer-segmentation.qmd
+          - href: projects/Customer Segmentation/suncounty-customer-segmentation.qmd
             text: Sun Country Segmentation Analysis
           - href: projects/yelp-restaurant-ratings-analysis.qmd
             text: Yelp Analysis

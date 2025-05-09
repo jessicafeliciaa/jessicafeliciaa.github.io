@@ -1,29 +1,29 @@
 ## 🚀 Projects
 
-### [✈️ Sun Country Airlines – Customer Segmentation](suncounty-customer-segmentation.qmd)  
+### [✈️ Sun Country Airlines – Customer Segmentation](Customer-Segmentation/suncounty-customer-segmentation.qmd)  
 Used K-means clustering to segment airline customers by behavior and demographics, enabling targeted marketing strategies for each group.  
 **Tools:** Python, Pandas, K-means, Seaborn, Google Colab
 
 ---
 
-### [🎬 Netflix Recommendation System & Chatbot](netflix-recommendation.qmd)  
+### [🎬 Netflix Recommendation System & Chatbot](Netflix-Recommendation/netflix-recommendation.qmd)  
 A personalized movie and TV recommender with chatbot interaction, using NLP, clustering, and TF-IDF similarity scoring.  
 **Tools:** Python, NLTK, Scikit-learn, Cosine Similarity, TF-IDF
 
 ---
 
-### [🏦 Bank Customer Churn Prediction](bank-churn-prediction.qmd)  
+### [🏦 Bank Customer Churn Prediction](Bank-Churn-Prediction/bank-churn-prediction.qmd)  
 Used machine learning to identify at-risk banking customers and reduce silent attrition through data-driven retention strategies.  
 **Tools:** Python, Random Forest, SMOTE, Pandas, Scikit-learn
 
 ---
 
-### [🛍️ Amazon Product Review Sentiment Analysis](amazon-product-analysis.qmd)  
+### [🛍️ Amazon Product Review Sentiment Analysis](Amazon-Product-Analysis/amazon-product-analysis.qmd)  
 Analyzed Amazon product reviews using NLP and classification models to uncover customer sentiment patterns.  
 **Tools:** Python, TF-IDF, Logistic Regression, Naive Bayes
 
 ---
 
-### [🍽️ Yelp Restaurant Ratings Analysis](yelp-restaurant-ratings-analysis.qmd)  
+### [🍽️ Yelp Restaurant Ratings Analysis](Yelp-Restaurant-Rating/yelp-restaurant-ratings-analysis.qmd)  
 Explored cuisine trends and modeled restaurant success using Yelp reviews and machine learning.  
 **Tools:** Python, Random Forest, KNN, Data Visualization

@@ -3,29 +3,27 @@ title: "Home"
 format: html
 ---
 
-# Welcome
+### 👋 Welcome
 
-Hi, I’m **Jessica Felicia**, a Masters student in Business Analytics at the Paul Merage School of Business, University of Irvine. I enjoy solving business problems through data, especially in the areas of marketing strategy, customer insight, and predictive analytics.
+Hi! I’m **Jessica Felicia**, a Master’s student in Business Analytics at UCI’s Paul Merage School of Business. I’m passionate about uncovering insights through marketing analytics, customer segmentation, and storytelling with data.
 
----
+With a technical foundation and hands-on project experience, I love solving problems where **data meets strategy** — especially when it helps companies understand their customers better and grow smarter.
 
-## 💼 What I Do
+[🔎 About Me](about.qmd)
 
-- 📊 Build machine learning models to predict churn, segment customers, and uncover patterns
-- 🧠 Apply NLP and clustering to personalize experiences
-- 📈 Create dashboards and visual stories using Tableau & Python
-- 🤝 Communicate findings that drive strategic decisions
 
----
+## 🚀 Featured Projects
 
-## 🔗 Explore
+### [🍽️ Yelp Restaurant Ratings Analysis](projects/Yelp-Restaurant-Rating/yelp-restaurant-ratings-analysis.qmd)  
+Explored rating trends across cuisines and modeled restaurant success using machine learning.  
+**Tools:** Python, Pandas, Random Forest, KNN, Data Visualization
 
-- 🙋🏻‍♀️ [About Me](about.qmd)
-- 🚀 [Projects](projects/project.qmd)
+### [🏦 Bank Customer Churn Prediction](projects/Bank-Churn-Prediction/bank-churn-prediction.qmd)  
+Used SMOTE and Random Forest to predict attrition and inform retention.  
+**Tools:** Python, Scikit-learn
 
-## 📫 Get in Touch
-- [GitHub](https://github.com/jessicafeliciaa)
-- [LinkedIn](https://www.linkedin.com/in/jessicafelicia/)
-- [Email](jessicafelicia87@gmail.com)
+### [🎬 Netflix Recommender & Chatbot](projects/Netflix-Recommendation/netflix-recommendation.qmd)  
+NLP + chatbot-based content recommendation engine.  
+**Tools:** Python, TF-IDF, Cosine Similarity
 
----
+[🗂️ View All Projects →](projects/project.qmd)

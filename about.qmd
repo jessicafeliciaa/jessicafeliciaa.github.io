@@ -7,40 +7,51 @@ format: html
   <img src="projects/images/jessica.JPG" style="border-radius: 8px; width: 100%;">
 </div>
   
-### 👩‍💼 Jessica Felicia  
+## 👩🏼‍💼 Jessica Felicia  
 **M.S. in Business Analytics**  
-**Paul Merage School of Business - University of California, Irvine**
+*Paul Merage School of Business, UC Irvine*
 
-I'm a Master's student at the Paul Merage School of Business, specializing in Business Analytics. I have a strong passion for leveraging data to uncover insights and drive strategic decisions, especially in the areas of marketing analytics, customer segmentation, and business intelligence.
+I combine a technical background with a deep interest in solving business problems through data, particularly in **marketing analytics**, **customer insights**, and **data visualization**. My recent work spans customer churn prediction, clustering, recommendation systems, and real-world product and campaign insights.
 
-My work blends technical skills in Python, SQL, Tableau, and Excel with a business-first mindset. I’ve led and contributed to projects involving churn rate analysis, recommendation systems, Yelp analysis, Customer segmentation analysis.
+### 💼 Recent Experience
 
-I'm particularly drawn to problems where human behavior meets data, and I thrive in collaborative settings where I can turn messy datasets into meaningful insights for stakeholders.
+**Student Data Analyst – Obagi Medical**  
+Improved retention tracking and reduced churn risk using cohort analysis and Tableau dashboards. Delivered strategic insights for the marketing team.
+
+**Product Documentation Specialist – Lin-Zhi International**  
+Maintained technical documentation and streamlined approval workflows, supporting QA and R&D.
+
+**Content Analyst – Yahoo**  
+Transformed unstructured data (HTML/XPath) into classified datasets for improving content discovery.
+
+### 🧪 Skills & Tools
+
+**Languages:** Python, SQL, Java, R, HTML  
+**Tools:** Tableau, Excel, Git, Google Colab  
+**Libraries:** Pandas, Scikit-learn, Seaborn, Matplotlib  
+**Database:** MySQL, NoSQL  
+**Tech:** Jupyter, VS Code, GitHub, Regex
+
+### 📌 Project Experience
+
+- **Churn Analysis (Obagi)** – Predicted attrition trends, created retention rate dashboards  
+- **Customer Segmentation** – Applied K-means to group travelers  
+- **Netflix Chatbot & Recommender** – Built NLP-based system using TF-IDF + clustering  
+- **Yelp Rating Analysis** – Modeled predictors of restaurant success by cuisine and location  
+- **Sentiment Analysis (Amazon Reviews)** – Classified product reviews using VADER + ML  
+- **Bank Churn Prediction (Machine Learning)** – Used SMOTE & Random Forest to identify high-risk customers
+
+### 🎯 Interests
+
+- Customer Retention & Engagement  
+- Campaign Optimization & Analytics  
+- Behavioral Clustering & Segmentation  
+- Data Storytelling & Dashboarding
+
+### 🤝 Let's Connect
+
+📧 [Email](mailto:jessicafelicia87@gmail.com)  
+🔗 [LinkedIn](https://linkedin.com/in/jessicafelicia)
 
   </div>
 </div>
-
----
-
-## 📌 Core Interests & Strengths
-
-- **Data & Marketing Analytics**
-- **Customer Segmentation & Personalization**
-- **Data Visualization & Storytelling**
-- **Machine Learning**
-
----
-
-## 🔧 Technical Toolkit
-
-- **Languages:** Python, SQL, Java, R (basic)
-- **Tools:** Tableau, Excel, Google Colab, Git
-- **Libraries:** Pandas, Scikit-learn, Matplotlib, Seaborn
-
----
-
-## 🎯 Goals & Mindset
-
-As an aspiring data-driven professional, I’m always learning and eager to work on impactful projects that connect analytics to business value. Whether it’s optimizing customer journeys, exploring behavior through clustering, or crafting dashboards for decision-makers, I aim to bring clarity through data.
-
-Let’s connect and create something meaningful together!

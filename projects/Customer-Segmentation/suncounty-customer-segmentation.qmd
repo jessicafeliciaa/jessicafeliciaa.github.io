@@ -48,7 +48,7 @@ We used **K-means clustering** after standardizing numerical features and encodi
 
 ### Cluster 0 – *Middle-Aged Standard Travelers*  
 Most frequently fly solo or in pairs, book standard class, and fly year-round.
-<div style="width: 700px;">
+<div style="width: 400px;">
   <img src="images/cluster-0.png" style="border-radius: 8px; width: 100%;">
 </div>
 
