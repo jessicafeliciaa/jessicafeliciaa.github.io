@@ -66,6 +66,10 @@ These insights help the bank prioritize retention efforts around customer age, e
 
 This project shows how machine learning can effectively identify churn risk using behavioral and demographic signals. With Random Forest as the most effective model, supported by SMOTE balancing, banks can proactively reduce attrition by targeting the right customers at the right time. The insights gained can guide smarter customer engagement and long-term profitability.
 
+---
+**Team Member:** Made Jessica Felicia, Fabián Cruz-Ruiz, Yi-En Ivy Liu, Grace Kim, Chieh-Yi Chou
+
+
 ## 📎 GitHub Repository
 
-👉 [View Code on GitHub](https://github.com/your-username/bank-churn-prediction)
+👉 [View Code on GitHub](https://github.com/jessicafeliciaa/jessicafeliciaa.github.io/blob/main/projects/Bank-Churn-Prediction/Group_8B_ML_Final_Project_ipynb_final.ipynb)

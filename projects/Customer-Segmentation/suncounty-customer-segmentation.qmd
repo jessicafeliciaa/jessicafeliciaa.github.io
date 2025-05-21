@@ -125,7 +125,11 @@ The process also demonstrated the power of combining raw Excel data with Python-
 - Explore supervised models for predicting customer loyalty or churn
 - Build a dashboard (Tableau or Streamlit) for real-time cluster monitoring
 
+---
+**Team Member:** Made Jessica Felicia, Fabián Cruz-Ruiz, Yi-En Ivy Liu, Grace Kim, Chieh-Yi Chou
+
+
 ## 📎 GitHub Repository
 
-👉 [View Code on GitHub](https://github.com/your-username/amazon-review-sentiment)
+👉 [View Code on GitHub](https://github.com/jessicafeliciaa/jessicafeliciaa.github.io/blob/main/projects/Customer-Segmentation/Clustering%20Project.ipynb)
 

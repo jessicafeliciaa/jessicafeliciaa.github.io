@@ -1,5 +1,9 @@
 ## 🚀 Projects
 
+### [📊 Tableau Dashboard - Netflix Content Distribution](Tableau-Dashboard/Netflix-Overview/Netflix-Dashboard.qmd)
+Visualized global Netflix content trends by genre, country, and release year using Tableau. Dashboard highlights top contributing countries, genre popularity, and content growth over time.  
+**Tools:** Tableau, Excel, Data Visualization, Google Colab, Python
+
 ### [✈️ Sun Country Airlines – Customer Segmentation](Customer-Segmentation/suncounty-customer-segmentation.qmd)  
 Used K-means clustering to segment airline customers by behavior and demographics, enabling targeted marketing strategies for each group.  
 **Tools:** Python, Pandas, K-means, Seaborn, Google Colab

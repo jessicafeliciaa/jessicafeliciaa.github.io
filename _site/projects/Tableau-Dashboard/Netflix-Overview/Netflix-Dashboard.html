@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>🏦 Predicting Bank Customer Churn – My Portfolio</title>
+<title>📊 Netflix Content Overview Dashboard – My Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-4eb6582ef5a24dafb2963f3a2a9c594e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-4eb6582ef5a24dafb2963f3a2a9c594e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">My Portfolio</span>
     </a>
   </div>
@@ -89,15 +89,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects/project.html"> 
+    <a class="nav-link" href="../../../projects/project.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -116,15 +116,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">📌 Project Overview</a></li>
-  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">🎯 Objectives</a></li>
-  <li><a href="#data-methods" id="toc-data-methods" class="nav-link" data-scroll-target="#data-methods">🗂️ Data &amp; Methods</a></li>
-  <li><a href="#model-performance-summary" id="toc-model-performance-summary" class="nav-link" data-scroll-target="#model-performance-summary">🤖 Model Performance Summary</a></li>
-  <li><a href="#feature-importance-logistic-regression" id="toc-feature-importance-logistic-regression" class="nav-link" data-scroll-target="#feature-importance-logistic-regression">🔍 Feature Importance – Logistic Regression</a></li>
-  <li><a href="#key-insights" id="toc-key-insights" class="nav-link" data-scroll-target="#key-insights">🔍 Key Insights</a></li>
-  <li><a href="#strategic-recommendations" id="toc-strategic-recommendations" class="nav-link" data-scroll-target="#strategic-recommendations">💡 Strategic Recommendations</a></li>
-  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">🧾 Conclusion</a></li>
-  <li><a href="#github-repository" id="toc-github-repository" class="nav-link" data-scroll-target="#github-repository">📎 GitHub Repository</a></li>
+  <li><a href="#data-cleaning-preparation-python" id="toc-data-cleaning-preparation-python" class="nav-link active" data-scroll-target="#data-cleaning-preparation-python">🧹 Data Cleaning &amp; Preparation (Python)</a></li>
+  <li><a href="#key-metrics-summary" id="toc-key-metrics-summary" class="nav-link" data-scroll-target="#key-metrics-summary">🔢 Key Metrics Summary</a></li>
+  <li><a href="#country-contributions" id="toc-country-contributions" class="nav-link" data-scroll-target="#country-contributions">🌍 Country Contributions</a></li>
+  <li><a href="#popular-genres" id="toc-popular-genres" class="nav-link" data-scroll-target="#popular-genres">🎞️ Popular Genres</a></li>
+  <li><a href="#content-growth-over-time" id="toc-content-growth-over-time" class="nav-link" data-scroll-target="#content-growth-over-time">📈 Content Growth Over Time</a></li>
+  <li><a href="#content-type-distribution" id="toc-content-type-distribution" class="nav-link" data-scroll-target="#content-type-distribution">🧩 Content Type Distribution</a></li>
+  <li><a href="#dashboard-highlights" id="toc-dashboard-highlights" class="nav-link" data-scroll-target="#dashboard-highlights">📌 Dashboard Highlights</a></li>
   </ul>
 </nav>
     </div>
@@ -133,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">🏦 Predicting Bank Customer Churn</h1>
+<h1 class="title">📊 Netflix Content Overview Dashboard</h1>
 </div>
 
 
@@ -150,124 +148,81 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-overview" class="level2">
-<h2 class="anchored" data-anchor-id="project-overview">📌 Project Overview</h2>
-<p>As digital banking continues to grow, identifying and preventing customer churn—especially <em>silent attrition</em>—has become critical for banks. This project applied multiple machine learning models to predict customer churn and uncover key behavioral and demographic risk factors to enable proactive retention strategies.</p>
-</section>
-<section id="objectives" class="level2">
-<h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
-<ul>
-<li>Visualize current customer behavior and demographics</li>
-<li>Build predictive models to classify customers at risk of churn</li>
-<li>Identify actionable drivers of attrition for strategic intervention</li>
-</ul>
-</section>
-<section id="data-methods" class="level2">
-<h2 class="anchored" data-anchor-id="data-methods">🗂️ Data &amp; Methods</h2>
-<ul>
-<li><strong>Data</strong>: 10,000 records from a European bank (Kaggle)</li>
-<li><strong>Features</strong>: Age, Gender, Geography, Balance, Tenure, Products, Activity, etc.</li>
-<li><strong>Tools</strong>: Python, Scikit-learn, SMOTE, PCA</li>
-<li><strong>Models Used</strong>: Logistic Regression, Gaussian Naive Bayes, Decision Tree, Random Forest</li>
-</ul>
-</section>
-<section id="model-performance-summary" class="level2">
-<h2 class="anchored" data-anchor-id="model-performance-summary">🤖 Model Performance Summary</h2>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 11%">
-<col style="width: 22%">
-<col style="width: 18%">
-<col style="width: 21%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Model</th>
-<th>Accuracy</th>
-<th>Precision (Churn)</th>
-<th>Recall (Churn)</th>
-<th>F1-Score (Churn)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Logistic Regression</td>
-<td>80.9%</td>
-<td>60%</td>
-<td>19% → 77% (with SMOTE)</td>
-<td>29% → 77%</td>
-</tr>
-<tr class="even">
-<td>Naive Bayes</td>
-<td>78.7%</td>
-<td>36% → 70%</td>
-<td>6% → 74%</td>
-<td>11% → 72%</td>
-</tr>
-<tr class="odd">
-<td>Decision Tree</td>
-<td>85% (after pruning)</td>
-<td>80%</td>
-<td>37%</td>
-<td>51%</td>
-</tr>
-<tr class="even">
-<td>Random Forest</td>
-<td>86% → 84% (with SMOTE)</td>
-<td>76% → 58%</td>
-<td>47% → 64%</td>
-<td>58% → 61%</td>
-</tr>
-</tbody>
-</table>
-<blockquote class="blockquote">
-<p>✅ <strong>Random Forest with SMOTE</strong> achieved the best balance for identifying churners, despite a slight drop in precision.</p>
-</blockquote>
-</section>
-<section id="feature-importance-logistic-regression" class="level2">
-<h2 class="anchored" data-anchor-id="feature-importance-logistic-regression">🔍 Feature Importance – Logistic Regression</h2>
-<div style="width: 500px;">
-<p><img src="images/feature-importance.png" style="border-radius: 8px; width: 100%;"></p>
+<p>This dashboard provides a high-level summary of Netflix’s global content distribution and trends, enabling users to quickly understand the platform’s content diversity, production origins, and growth over time. Built using Tableau, the visualization aggregates data from over 7,900 Netflix titles across various genres and countries.</p>
+<div style="width: 750px;">
+<p><img src="images/Netflix-Dashboard.png" style="border-radius: 8px; width: 100%;"></p>
 </div>
-<p>This chart displays the standardized coefficients from the Logistic Regression model, highlighting which features most influence customer churn predictions.</p>
+<section id="data-cleaning-preparation-python" class="level2">
+<h2 class="anchored" data-anchor-id="data-cleaning-preparation-python">🧹 Data Cleaning &amp; Preparation (Python)</h2>
+<p>Before visualizing the data in Tableau, the dataset was cleaned and preprocessed using Python:</p>
 <ul>
-<li><strong>Age</strong> and <strong>Balance</strong> are the strongest positive predictors of churn — older customers and those with higher balances are more likely to leave.</li>
-<li><strong>IsActiveMember</strong> has the strongest negative coefficient, indicating active users are significantly less likely to churn.</li>
-<li>Other features like <strong>Geography</strong>, <strong>Estimated Salary</strong>, and <strong>Gender</strong> show smaller but still notable impacts.</li>
+<li><strong>Removed null values</strong> in key fields such as <code>country</code>, <code>release_year</code>, and <code>listed_in</code> (genres).</li>
+<li><strong>Filled missing <code>date_added</code></strong> with a placeholder or dropped those rows, depending on completeness of other fields.</li>
+<li><strong>Extracted content type</strong> (Movie vs.&nbsp;TV Show) and genre tags from multi-value columns.</li>
+<li><strong>Standardized text formatting</strong> for categorical fields (e.g., lowercased, stripped whitespace).</li>
+<li><strong>Converted <code>release_year</code> and <code>date_added</code></strong> to datetime format to enable time-series analysis in Tableau.</li>
 </ul>
-<p>These insights help the bank prioritize retention efforts around customer age, engagement, and account value.</p>
+<p>All cleaning was performed in a Jupyter notebook using <strong>Pandas</strong>, and the final cleaned <code>.csv</code> was exported and used for Tableau dashboard development.</p>
 </section>
-<section id="key-insights" class="level2">
-<h2 class="anchored" data-anchor-id="key-insights">🔍 Key Insights</h2>
+<section id="key-metrics-summary" class="level2">
+<h2 class="anchored" data-anchor-id="key-metrics-summary">🔢 Key Metrics Summary</h2>
 <ul>
-<li><strong>Demographics</strong>: Older customers are more likely to churn; geographic differences (France/Germany higher than Spain).</li>
-<li><strong>Behavioral Indicators</strong>:
+<li><strong>Total Titles</strong>: 7,967 unique pieces of content<br>
+</li>
+<li><strong>Total Genres</strong>: 17,588 (some titles span multiple genres)<br>
+</li>
+<li><strong>Content Type Breakdown</strong>: 70.13% Movies, 29.87% TV Shows</li>
+</ul>
+<p>These figures offer a snapshot of Netflix’s content volume and the movie-to-TV show ratio on the platform.</p>
+</section>
+<section id="country-contributions" class="level2">
+<h2 class="anchored" data-anchor-id="country-contributions">🌍 Country Contributions</h2>
 <ul>
-<li>Inactive members have a 27% churn rate vs.&nbsp;14% for active.</li>
-<li>Customers with fewer products are more likely to churn.</li>
+<li><strong>Top Producing Countries</strong>:
+<ul>
+<li>United States (4,993 titles)<br>
+</li>
+<li>India (2,665 titles)<br>
+</li>
+<li>United Kingdom, Japan, and South Korea follow</li>
 </ul></li>
-<li><strong>Top Predictive Features</strong>: Age, Number of Products, Balance, IsActiveMember.</li>
+<li><strong>Geographic Distribution</strong>:<br>
+The heatmap reveals strong North American and South Asian contributions, particularly from the US and India. Europe shows moderate production, while some regions remain underrepresented.</li>
 </ul>
 </section>
-<section id="strategic-recommendations" class="level2">
-<h2 class="anchored" data-anchor-id="strategic-recommendations">💡 Strategic Recommendations</h2>
+<section id="popular-genres" class="level2">
+<h2 class="anchored" data-anchor-id="popular-genres">🎞️ Popular Genres</h2>
 <ul>
-<li><strong>Engagement</strong>: Target inactive users and those with only 1–2 products via cross-sell campaigns.</li>
-<li><strong>Personalization</strong>: Design region-specific and age-aware outreach strategies.</li>
-<li><strong>Retention</strong>: Monitor older customers and offer digital support to reduce disengagement.</li>
-<li><strong>Model Use</strong>: Deploy Random Forest with SMOTE to support real-time churn alerts.</li>
+<li><strong>Leading Genres</strong>: International Movies, Dramas, and Comedies top the list.<br>
+</li>
+<li><strong>Additional Categories</strong>: Action &amp; Adventure, Documentaries, and Romantic Movies show significant presence.</li>
+</ul>
+<p>These patterns reflect viewer preferences and Netflix’s global content strategy to attract diverse audiences.</p>
+</section>
+<section id="content-growth-over-time" class="level2">
+<h2 class="anchored" data-anchor-id="content-growth-over-time">📈 Content Growth Over Time</h2>
+<ul>
+<li>Netflix’s content library grew significantly between 2015 and 2020, peaking around 2018–2019.<br>
+</li>
+<li>A decline appears post-2021, possibly due to global production impacts (e.g., pandemic) or shifts in content strategy.</li>
 </ul>
 </section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">🧾 Conclusion</h2>
-<p>This project shows how machine learning can effectively identify churn risk using behavioral and demographic signals. With Random Forest as the most effective model, supported by SMOTE balancing, banks can proactively reduce attrition by targeting the right customers at the right time. The insights gained can guide smarter customer engagement and long-term profitability.</p>
-<hr>
-<p><strong>Team Member:</strong> Made Jessica Felicia, Fabián Cruz-Ruiz, Yi-En Ivy Liu, Grace Kim, Chieh-Yi Chou</p>
+<section id="content-type-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="content-type-distribution">🧩 Content Type Distribution</h2>
+<ul>
+<li><strong>Movies</strong>: 12,335 entries<br>
+</li>
+<li><strong>TV Shows</strong>: 5,253 entries</li>
+</ul>
+<p>This reinforces Netflix’s historical focus on film, though its TV library remains substantial.</p>
 </section>
-<section id="github-repository" class="level2">
-<h2 class="anchored" data-anchor-id="github-repository">📎 GitHub Repository</h2>
-<p>👉 <a href="https://github.com/jessicafeliciaa/jessicafeliciaa.github.io/blob/main/projects/Bank-Churn-Prediction/Group_8B_ML_Final_Project_ipynb_final.ipynb">View Code on GitHub</a></p>
+<section id="dashboard-highlights" class="level2">
+<h2 class="anchored" data-anchor-id="dashboard-highlights">📌 Dashboard Highlights</h2>
+<p>This Tableau dashboard enables quick insight into: - Global content contributions<br>
+- Genre popularity<br>
+- Content trends over time<br>
+- Balance between TV and movies</p>
+<p>It supports strategic decisions for content planning, international expansion, and audience targeting.</p>
 
 
 </section>
@@ -363,7 +318,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/jessicafeliciaa\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

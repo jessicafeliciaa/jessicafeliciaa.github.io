@@ -1,0 +1,76 @@
+---
+title: " 📊 Netflix Content Overview Dashboard"
+format: html
+---
+
+This dashboard provides a high-level summary of Netflix's global content distribution and trends, enabling users to quickly understand the platform's content diversity, production origins, and growth over time. Built using Tableau, the visualization aggregates data from over 7,900 Netflix titles across various genres and countries.
+
+<div style="width: 750px;">
+  <img src="images/Netflix-Dashboard.png" style="border-radius: 8px; width: 100%;">
+</div>
+
+
+## 🧹 Data Cleaning & Preparation (Python)
+
+Before visualizing the data in Tableau, the dataset was cleaned and preprocessed using Python:
+
+- **Removed null values** in key fields such as `country`, `release_year`, and `listed_in` (genres).
+- **Filled missing `date_added`** with a placeholder or dropped those rows, depending on completeness of other fields.
+- **Extracted content type** (Movie vs. TV Show) and genre tags from multi-value columns.
+- **Standardized text formatting** for categorical fields (e.g., lowercased, stripped whitespace).
+- **Converted `release_year` and `date_added`** to datetime format to enable time-series analysis in Tableau.
+
+All cleaning was performed in a Jupyter notebook using **Pandas**, and the final cleaned `.csv` was exported and used for Tableau dashboard development.
+
+## 🔢 Key Metrics Summary
+
+- **Total Titles**: 7,967 unique pieces of content  
+- **Total Genres**: 17,588 (some titles span multiple genres)  
+- **Content Type Breakdown**: 70.13% Movies, 29.87% TV Shows  
+
+These figures offer a snapshot of Netflix’s content volume and the movie-to-TV show ratio on the platform.
+
+
+## 🌍 Country Contributions
+
+- **Top Producing Countries**:  
+  - United States (4,993 titles)  
+  - India (2,665 titles)  
+  - United Kingdom, Japan, and South Korea follow  
+
+- **Geographic Distribution**:  
+  The heatmap reveals strong North American and South Asian contributions, particularly from the US and India. Europe shows moderate production, while some regions remain underrepresented.
+
+
+## 🎞️ Popular Genres
+
+- **Leading Genres**: International Movies, Dramas, and Comedies top the list.  
+- **Additional Categories**: Action & Adventure, Documentaries, and Romantic Movies show significant presence.
+
+These patterns reflect viewer preferences and Netflix’s global content strategy to attract diverse audiences.
+
+
+
+## 📈 Content Growth Over Time
+
+- Netflix’s content library grew significantly between 2015 and 2020, peaking around 2018–2019.  
+- A decline appears post-2021, possibly due to global production impacts (e.g., pandemic) or shifts in content strategy.
+
+
+## 🧩 Content Type Distribution
+
+- **Movies**: 12,335 entries  
+- **TV Shows**: 5,253 entries  
+
+This reinforces Netflix’s historical focus on film, though its TV library remains substantial.
+
+
+## 📌 Dashboard Highlights
+
+This Tableau dashboard enables quick insight into:
+- Global content contributions  
+- Genre popularity  
+- Content trends over time  
+- Balance between TV and movies  
+
+It supports strategic decisions for content planning, international expansion, and audience targeting.

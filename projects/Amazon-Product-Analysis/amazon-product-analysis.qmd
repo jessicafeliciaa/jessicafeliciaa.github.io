@@ -59,6 +59,11 @@ This project analyzes customer sentiment from Amazon product reviews using natur
 
 This project demonstrated how sentiment analysis can uncover key customer insights from product reviews. Despite model limitations with neutral and negative classification, positive feedback was effectively captured. Further model tuning and data balancing could enhance accuracy across all sentiment categories, supporting more informed business decisions.
 
+---
+
+**Team Member:** Made Jessica Felicia, Aakash Shambhulal Bhanushali, Zaiheng Shen, Xiaojia Yang,
+Zheng Zhai, Krystal Zhang
+
 ## 📎 GitHub Repository
 
-👉 [View Code on GitHub](https://github.com/your-username/amazon-review-sentiment)
+👉 [View Code on GitHub](https://github.com/jessicafeliciaa/jessicafeliciaa.github.io/blob/main/projects/Amazon-Product-Analysis/Team_Obagi_10B_CSA_Project.ipynb)

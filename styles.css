@@ -1,9 +1,68 @@
-.profile-pic {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #ddd;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    margin-right: 1em;
-  }
+body {
+  font-family:'Times New Roman', Times, serif;
+  background-color: #f9f9fc;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  color: #1c2b36;
+}
+
+a {
+  color: #024f86;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navbar a {
+  color: white !important;
+}
+
+img {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.container {
+  padding-top: 2rem;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #003262, #005fa3); /* UC Irvine-themed gradient */
+  border-radius: 12px;
+  margin: 16px;
+  padding: 8px 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: white !important;
+}
+
+.navbar-nav .nav-link {
+  font-weight: 500;
+  padding: 10px 14px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white !important;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 50, 98, 0.85);
+  z-index: 999;
+}

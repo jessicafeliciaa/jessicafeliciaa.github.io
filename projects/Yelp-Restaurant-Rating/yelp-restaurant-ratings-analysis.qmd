@@ -53,6 +53,10 @@ This project analyzes Yelp restaurant data across California to identify key dri
 
 This project highlights how Yelp data can help small restaurants better understand customer behavior and optimize operations. By applying machine learning and analysis techniques, restaurant owners can gain strategic insights into location, cuisine impact, and review management—ultimately leading to better customer satisfaction and improved performance.
 
+---
+**Team Member:** Made Jessica Felicia, Fabián Cruz-Ruiz, Yi-En Ivy Liu, Grace Kim, Chieh-Yi Chou
+
+
 ## 📎 GitHub Repository
 
-👉 [View Code on GitHub](https://github.com/your-username/yelp-restaurant-analysis)
+👉 [View Code on GitHub](https://github.com/jessicafeliciaa/jessicafeliciaa.github.io/blob/main/projects/Yelp-Restaurant-Rating/Yelp%20Analysis.ipynb)

@@ -13,6 +13,8 @@ format: html
 
 I combine a technical background with a deep interest in solving business problems through data, particularly in **marketing analytics**, **customer insights**, and **data visualization**. My recent work spans customer churn prediction, clustering, recommendation systems, and real-world product and campaign insights.
 
+---
+
 ### 💼 Recent Experience
 
 **Student Data Analyst – Obagi Medical**  
@@ -24,6 +26,8 @@ Maintained technical documentation and streamlined approval workflows, supportin
 **Content Analyst – Yahoo**  
 Transformed unstructured data (HTML/XPath) into classified datasets for improving content discovery.
 
+--- 
+
 ### 🧪 Skills & Tools
 
 **Languages:** Python, SQL, Java, R, HTML  
@@ -31,6 +35,8 @@ Transformed unstructured data (HTML/XPath) into classified datasets for improvin
 **Libraries:** Pandas, Scikit-learn, Seaborn, Matplotlib  
 **Database:** MySQL, NoSQL  
 **Tech:** Jupyter, VS Code, GitHub, Regex
+
+---
 
 ### 📌 Project Experience
 
@@ -41,12 +47,16 @@ Transformed unstructured data (HTML/XPath) into classified datasets for improvin
 - **Sentiment Analysis (Amazon Reviews)** – Classified product reviews using VADER + ML  
 - **Bank Churn Prediction (Machine Learning)** – Used SMOTE & Random Forest to identify high-risk customers
 
+---
+
 ### 🎯 Interests
 
 - Customer Retention & Engagement  
 - Campaign Optimization & Analytics  
 - Behavioral Clustering & Segmentation  
 - Data Storytelling & Dashboarding
+
+---
 
 ### 🤝 Let's Connect
 

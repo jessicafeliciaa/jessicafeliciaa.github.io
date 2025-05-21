@@ -87,7 +87,9 @@ While the system provides personalized recommendations and interactive chatbot r
 
 Future enhancements could include deep learning models, multi-label classification improvements, and feedback-based recommendation tuning.
 
+---
+**Team Member:** Made Jessica Felicia, Eun Hye Kim, Yi-En Liu, Hsing-Chia Tsai, Chieh-Yi Chou
 
 ## 📎 GitHub Repository
 
-👉 [View Code on GitHub](https://github.com/your-username/netflix-recommendation)
+👉 [View Code on GitHub](https://github.com/jessicafeliciaa/jessicafeliciaa.github.io/blob/main/projects/Netflix-Recommendation/NLP_group_8_project.ipynb)
