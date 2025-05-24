@@ -14,6 +14,10 @@ With a technical foundation and hands-on project experience, I love solving prob
 
 ## 🚀 Featured Projects
 
+### [📊 Tableau Dashboard - Netflix Content Distribution](Tableau-Netflix/Netflix-Overview/Netflix-Dashboard.qmd)
+Dashboard highlights global Netflix content trends by genre, country, and release year using Tableau. 
+**Tools:** Tableau, Excel, Data Visualization, Google Colab, Python
+
 ### [🍽️ Yelp Restaurant Ratings Analysis](projects/Yelp-Restaurant-Rating/yelp-restaurant-ratings-analysis.qmd)  
 Explored rating trends across cuisines and modeled restaurant success using machine learning.  
 **Tools:** Python, Pandas, Random Forest, KNN, Data Visualization

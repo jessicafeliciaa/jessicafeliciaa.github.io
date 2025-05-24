@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>📊 Netflix Content Overview Dashboard – My Portfolio</title>
+<title>📱 Social Media Advertising Analysis – My Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-4eb6582ef5a24dafb2963f3a2a9c594e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-4eb6582ef5a24dafb2963f3a2a9c594e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +68,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">My Portfolio</span>
     </a>
   </div>
@@ -89,15 +89,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../projects/project.html"> 
+    <a class="nav-link" href="../../projects/project.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -116,13 +116,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-cleaning-preparation-python" id="toc-data-cleaning-preparation-python" class="nav-link active" data-scroll-target="#data-cleaning-preparation-python">🧹 Data Cleaning &amp; Preparation (Python)</a></li>
-  <li><a href="#key-metrics-summary" id="toc-key-metrics-summary" class="nav-link" data-scroll-target="#key-metrics-summary">🔢 Key Metrics Summary</a></li>
-  <li><a href="#country-contributions" id="toc-country-contributions" class="nav-link" data-scroll-target="#country-contributions">🌍 Country Contributions</a></li>
-  <li><a href="#popular-genres" id="toc-popular-genres" class="nav-link" data-scroll-target="#popular-genres">🎞️ Popular Genres</a></li>
-  <li><a href="#content-growth-over-time" id="toc-content-growth-over-time" class="nav-link" data-scroll-target="#content-growth-over-time">📈 Content Growth Over Time</a></li>
-  <li><a href="#content-type-distribution" id="toc-content-type-distribution" class="nav-link" data-scroll-target="#content-type-distribution">🧩 Content Type Distribution</a></li>
-  <li><a href="#dashboard-highlights" id="toc-dashboard-highlights" class="nav-link" data-scroll-target="#dashboard-highlights">📌 Dashboard Highlights</a></li>
+  <li><a href="#project-overview" id="toc-project-overview" class="nav-link active" data-scroll-target="#project-overview">📌 Project Overview</a></li>
+  <li><a href="#predictive-modeling-high-conversion-classification" id="toc-predictive-modeling-high-conversion-classification" class="nav-link" data-scroll-target="#predictive-modeling-high-conversion-classification">📈 Predictive Modeling: High Conversion Classification</a>
+  <ul class="collapse">
+  <li><a href="#models-used" id="toc-models-used" class="nav-link" data-scroll-target="#models-used">Models Used</a></li>
+  <li><a href="#results-summary" id="toc-results-summary" class="nav-link" data-scroll-target="#results-summary">Results Summary</a></li>
+  </ul></li>
+  <li><a href="#feature-importance-random-forest" id="toc-feature-importance-random-forest" class="nav-link" data-scroll-target="#feature-importance-random-forest">🔍 Feature Importance (Random Forest)</a></li>
+  <li><a href="#tableau-dashboard" id="toc-tableau-dashboard" class="nav-link" data-scroll-target="#tableau-dashboard">📊 Tableau Dashboard</a>
+  <ul class="collapse">
+  <li><a href="#dashboard-components" id="toc-dashboard-components" class="nav-link" data-scroll-target="#dashboard-components">Dashboard Components:</a></li>
+  </ul></li>
+  <li><a href="#key-insights-recommendations" id="toc-key-insights-recommendations" class="nav-link" data-scroll-target="#key-insights-recommendations">📌 Key Insights &amp; Recommendations</a></li>
+  <li><a href="#github-repository" id="toc-github-repository" class="nav-link" data-scroll-target="#github-repository">📎 GitHub Repository</a></li>
   </ul>
 </nav>
     </div>
@@ -131,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">📊 Netflix Content Overview Dashboard</h1>
+<h1 class="title">📱 Social Media Advertising Analysis</h1>
 </div>
 
 
@@ -148,81 +154,123 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>This dashboard provides a high-level summary of Netflix’s global content distribution and trends, enabling users to quickly understand the platform’s content diversity, production origins, and growth over time. Built using Tableau, the visualization aggregates data from over 7,900 Netflix titles across various genres and countries.</p>
-<div style="width: 750px;">
-<p><img src="images/Netflix-Dashboard.png" style="border-radius: 8px; width: 100%;"></p>
+<section id="project-overview" class="level2">
+<h2 class="anchored" data-anchor-id="project-overview">📌 Project Overview</h2>
+<p>This project analyzes the performance of social media advertising campaigns using a dataset that includes impressions, clicks, conversion rates, engagement scores, ROI, customer segments, and target audience demographics. We performed exploratory analysis, predictive modeling, and created a performance dashboard in Tableau to uncover actionable insights.</p>
+</section>
+<section id="predictive-modeling-high-conversion-classification" class="level2">
+<h2 class="anchored" data-anchor-id="predictive-modeling-high-conversion-classification">📈 Predictive Modeling: High Conversion Classification</h2>
+<p>We created models to predict whether a campaign would achieve high conversion (<code>High_Conversion = 1</code>) using various features like CTR, CPC, engagement score, and demographics.</p>
+<section id="models-used" class="level3">
+<h3 class="anchored" data-anchor-id="models-used">Models Used</h3>
+<ul>
+<li><strong>Logistic Regression</strong></li>
+<li><strong>Decision Tree Classifier</strong></li>
+<li><strong>Random Forest Classifier</strong></li>
+</ul>
+</section>
+<section id="results-summary" class="level3">
+<h3 class="anchored" data-anchor-id="results-summary">Results Summary</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 14%">
+<col style="width: 38%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Model</th>
+<th>Accuracy</th>
+<th>Recall (High Conversion)</th>
+<th>Key Insight</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Logistic Regression</td>
+<td>54%</td>
+<td>0.00</td>
+<td>Failed to identify positive class</td>
+</tr>
+<tr class="even">
+<td>Decision Tree</td>
+<td>52%</td>
+<td>0.24</td>
+<td>Some success identifying conversions</td>
+</tr>
+<tr class="odd">
+<td>Random Forest</td>
+<td>54%</td>
+<td>0.02</td>
+<td>Poor recall, reliant on CTR/CPC</td>
+</tr>
+</tbody>
+</table>
+<blockquote class="blockquote">
+<p><strong>Note:</strong> The overall accuracy and recall were low across all models, especially for predicting high-conversion campaigns. This was largely due to:</p>
+</blockquote>
+<ul>
+<li><strong>Class imbalance</strong>: The dataset had a slightly uneven distribution of high vs.&nbsp;low conversion outcomes, which caused the models to favor the majority class.</li>
+<li><strong>Weak predictors (without CTR/CPC)</strong>: When behavioral metrics like CTR and CPC were excluded, the remaining features (e.g., language, segment, audience) lacked strong predictive power.</li>
+<li><strong>High-importance behavioral variables</strong>: CTR, CPC, and Engagement Score were the most influential features in identifying high-conversion campaigns. Removing them significantly reduced model effectiveness.</li>
+</ul>
+</section>
+</section>
+<section id="feature-importance-random-forest" class="level2">
+<h2 class="anchored" data-anchor-id="feature-importance-random-forest">🔍 Feature Importance (Random Forest)</h2>
+<div style="width: 500px;">
+<p><img src="images/feature-importance-rf.png" style="border-radius: 8px; width: 100%;"></p>
 </div>
-<section id="data-cleaning-preparation-python" class="level2">
-<h2 class="anchored" data-anchor-id="data-cleaning-preparation-python">🧹 Data Cleaning &amp; Preparation (Python)</h2>
-<p>Before visualizing the data in Tableau, the dataset was cleaned and preprocessed using Python:</p>
+<p>When using all features:</p>
 <ul>
-<li><strong>Removed null values</strong> in key fields such as <code>country</code>, <code>release_year</code>, and <code>listed_in</code> (genres).</li>
-<li><strong>Filled missing <code>date_added</code></strong> with a placeholder or dropped those rows, depending on completeness of other fields.</li>
-<li><strong>Extracted content type</strong> (Movie vs.&nbsp;TV Show) and genre tags from multi-value columns.</li>
-<li><strong>Standardized text formatting</strong> for categorical fields (e.g., lowercased, stripped whitespace).</li>
-<li><strong>Converted <code>release_year</code> and <code>date_added</code></strong> to datetime format to enable time-series analysis in Tableau.</li>
-</ul>
-<p>All cleaning was performed in a Jupyter notebook using <strong>Pandas</strong>, and the final cleaned <code>.csv</code> was exported and used for Tableau dashboard development.</p>
-</section>
-<section id="key-metrics-summary" class="level2">
-<h2 class="anchored" data-anchor-id="key-metrics-summary">🔢 Key Metrics Summary</h2>
+<li><strong>Top Predictors</strong>:
 <ul>
-<li><strong>Total Titles</strong>: 7,967 unique pieces of content<br>
-</li>
-<li><strong>Total Genres</strong>: 17,588 (some titles span multiple genres)<br>
-</li>
-<li><strong>Content Type Breakdown</strong>: 70.13% Movies, 29.87% TV Shows</li>
-</ul>
-<p>These figures offer a snapshot of Netflix’s content volume and the movie-to-TV show ratio on the platform.</p>
-</section>
-<section id="country-contributions" class="level2">
-<h2 class="anchored" data-anchor-id="country-contributions">🌍 Country Contributions</h2>
-<ul>
-<li><strong>Top Producing Countries</strong>:
-<ul>
-<li>United States (4,993 titles)<br>
-</li>
-<li>India (2,665 titles)<br>
-</li>
-<li>United Kingdom, Japan, and South Korea follow</li>
+<li>CTR</li>
+<li>CPC</li>
+<li>Engagement Score</li>
 </ul></li>
-<li><strong>Geographic Distribution</strong>:<br>
-The heatmap reveals strong North American and South Asian contributions, particularly from the US and India. Europe shows moderate production, while some regions remain underrepresented.</li>
 </ul>
-</section>
-<section id="popular-genres" class="level2">
-<h2 class="anchored" data-anchor-id="popular-genres">🎞️ Popular Genres</h2>
+<p>When excluding CTR and CPC:</p>
 <ul>
-<li><strong>Leading Genres</strong>: International Movies, Dramas, and Comedies top the list.<br>
-</li>
-<li><strong>Additional Categories</strong>: Action &amp; Adventure, Documentaries, and Romantic Movies show significant presence.</li>
-</ul>
-<p>These patterns reflect viewer preferences and Netflix’s global content strategy to attract diverse audiences.</p>
-</section>
-<section id="content-growth-over-time" class="level2">
-<h2 class="anchored" data-anchor-id="content-growth-over-time">📈 Content Growth Over Time</h2>
+<li><strong>Top Predictors</strong>:
 <ul>
-<li>Netflix’s content library grew significantly between 2015 and 2020, peaking around 2018–2019.<br>
-</li>
-<li>A decline appears post-2021, possibly due to global production impacts (e.g., pandemic) or shifts in content strategy.</li>
+<li>Language</li>
+<li>Channel_Used</li>
+<li>Customer Segment</li>
+<li>Target Audience</li>
+</ul></li>
 </ul>
 </section>
-<section id="content-type-distribution" class="level2">
-<h2 class="anchored" data-anchor-id="content-type-distribution">🧩 Content Type Distribution</h2>
+<section id="tableau-dashboard" class="level2">
+<h2 class="anchored" data-anchor-id="tableau-dashboard">📊 Tableau Dashboard</h2>
+<div style="width: 800px;">
+<p><img src="images/Social-Media-Tableau.png" style="border-radius: 8px; width: 100%;"></p>
+</div>
+<section id="dashboard-components" class="level3">
+<h3 class="anchored" data-anchor-id="dashboard-components">Dashboard Components:</h3>
 <ul>
-<li><strong>Movies</strong>: 12,335 entries<br>
-</li>
-<li><strong>TV Shows</strong>: 5,253 entries</li>
+<li><strong>KPI Summary</strong>: Avg Engagement (4.37), Conversion Rate (8%), CTR (31.4%), Clicks (18,154)</li>
+<li><strong>Target Audience Effectiveness</strong>: Shows normalized conversion, CTR, and engagement by age/gender group.</li>
+<li><strong>Campaign Goal ROI</strong>: Product Launch campaigns had the highest average ROI (3.19).</li>
+<li><strong>Channel Performance</strong>: Facebook, Instagram, and Twitter had high CTR but varied in conversion performance.</li>
+<li><strong>Audience Segment Analysis</strong>: Women 25–34 and Men 18–24 emerged as high-engagement segments across several customer types.</li>
 </ul>
-<p>This reinforces Netflix’s historical focus on film, though its TV library remains substantial.</p>
 </section>
-<section id="dashboard-highlights" class="level2">
-<h2 class="anchored" data-anchor-id="dashboard-highlights">📌 Dashboard Highlights</h2>
-<p>This Tableau dashboard enables quick insight into: - Global content contributions<br>
-- Genre popularity<br>
-- Content trends over time<br>
-- Balance between TV and movies</p>
-<p>It supports strategic decisions for content planning, international expansion, and audience targeting.</p>
+</section>
+<section id="key-insights-recommendations" class="level2">
+<h2 class="anchored" data-anchor-id="key-insights-recommendations">📌 Key Insights &amp; Recommendations</h2>
+<ul>
+<li><strong>Behavioral metrics</strong> like CTR, CPC, and Engagement Score are the strongest predictors of conversion success.</li>
+<li><strong>Men 18–24</strong> and <strong>Women 25–34</strong> are ideal target segments for conversion and engagement.</li>
+<li><strong>Twitter</strong> performs best across CTR, conversion, and engagement — a top all-round ad channel.</li>
+<li><strong>Product Launch</strong> campaigns deliver the highest ROI.</li>
+<li><strong>Future Strategy</strong>: Focus on high-engagement audiences with performance channels (Twitter), optimize conversion paths on Facebook/Instagram, and use ROI heatmaps to guide budget allocation.</li>
+</ul>
+</section>
+<section id="github-repository" class="level2">
+<h2 class="anchored" data-anchor-id="github-repository">📎 GitHub Repository</h2>
+<p>👉 <a href="https://github.com/jessicafeliciaa/jessicafeliciaa.github.io/blob/main/projects/Tableau-Social-Media-Ads/Social_Media_Advertising.ipynb">View Code on GitHub</a></p>
 
 
 </section>
@@ -318,7 +366,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/jessicafeliciaa\.github\.io\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
